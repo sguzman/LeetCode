@@ -18,6 +18,12 @@ Simply do `cmake .` in root directory and then `make <problem name>` to build th
 The test executable is not suppose to be all encompassing. Just a little thing to verify
 that my code mostly works.
 
+#### Disclaimer
+As you would expect, this contains solutions to programming problems. LeetCode seems cool
+with people discussing and posting solutions to their problems. They have a discussion forum
+associated with every problem, for example, [here's](https://leetcode.com/discuss/questions/oj/pascals-triangle)
+for their pascal triangle generation problem. So, they would probably be okay with people hosting
+solutions on GitHub.
 
 #### Languages
 - C++
