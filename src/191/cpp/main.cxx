@@ -10,7 +10,7 @@ using namespace std;
 int main(void) {
 	Solution sol;
 
-	for (int i = 0; i < 10; ++i) {
+	for (uint32_t i = 0; i < 10; ++i) {
 		cout << sol.hammingWeight(i) << endl;
 	}
 
