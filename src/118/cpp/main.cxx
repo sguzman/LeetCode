@@ -4,6 +4,7 @@
 #include <iostream>
 
 #include "pascal.hxx"
+#include "../../include/pretty_print.hxx"
 
 using namespace std;
 
