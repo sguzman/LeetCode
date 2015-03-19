@@ -1,8 +1,6 @@
 int hammingWeight(uint32_t n) {
 	int ret;
-	for (ret = 0; n; n >>= 1) {
-		ret += n & 0x01;
-	}
+	for (ret = 0; n; (ret += n & 0x01), n >>= 1);
 
 	return ret;
 }
