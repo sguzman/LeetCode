@@ -14,6 +14,10 @@ faster than C++.
 I have added a build setup for each solution in CMake that is done in C or C++.
 Simply do `cmake .` in root directory and then `make <problem name>` to build the test.
 
+#### Test
+The test executable is not suppose to be all encompassing. Just a little thing to verify
+that my code mostly works.
+
 
 #### Languages
 - C++
