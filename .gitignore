@@ -86,8 +86,6 @@ target/
 
 
 ### Linux template
-*~
-
 # KDE directory preferences
 .directory
 
@@ -107,7 +105,6 @@ target/
 *.pch
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
 *.dll
 
@@ -128,31 +125,12 @@ target/
 
 ### C template
 # Object files
-*.o
 *.ko
-*.obj
 *.elf
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
 # Shared objects (inc. Windows DLLs)
-*.dll
-*.so
 *.so.*
-*.dylib
-
 # Executables
-*.exe
-*.out
-*.app
 *.i*86
 *.x86_64
 *.hex
@@ -168,7 +146,6 @@ install_manifest.txt
 
 ### Emacs template
 # -*- mode: gitignore; -*-
-*~
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
@@ -203,8 +180,6 @@ tramp
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
-*.iml
 
 ## Directory-based project format:
 .idea/
