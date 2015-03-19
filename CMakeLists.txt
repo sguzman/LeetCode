@@ -5,5 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 
 add_executable(pascal src/problems/118/cpp/main.cxx src/problems/118/cpp/pascal.hxx src/include/pretty_print.hxx)
 
+add_executable(singlenum src/problems/136/c/main.c src/problems/136/c/singlenum.h)
+
 add_executable(number1bits src/problems/191/cpp/main.cxx src/problems/191/cpp/number1bits.hxx)
 add_executable(number1bitsc src/problems/191/c/main.c src/problems/191/c/number1bits.h)
