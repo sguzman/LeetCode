@@ -8,6 +8,7 @@ add_executable(pascal src/problems/118/cpp/main.cxx src/problems/118/cpp/pascal.
 
 # 136
 add_executable(singlenumc src/problems/136/c/main.c src/problems/136/c/singlenum.h)
+add_executable(singlenum src/problems/136/cpp/main.cxx src/problems/136/cpp/singlenum.hxx)
 
 # 191
 add_executable(number1bits src/problems/191/cpp/main.cxx src/problems/191/cpp/number1bits.hxx)
