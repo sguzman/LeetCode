@@ -211,3 +211,4 @@ solutions on GitHub.
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/repeatedDNASequences/repeatedDNASequences.cpp)|Medium||
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [C++]()|Hard||
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [C++]()|Easy||
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [C++]()|Easy||
