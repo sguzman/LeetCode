@@ -3,7 +3,7 @@
 //
 #include <iostream>
 
-#include "TreeNode.hxx"
+#include "../../../include/cpp/TreeNode.hxx"
 #include "sametree.hxx"
 
 using namespace std;

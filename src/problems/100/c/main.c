@@ -2,7 +2,7 @@
 
 typedef int bool;
 
-#include "TreeNode.h"
+#include "../../../include/c/TreeNode.h"
 #include "sametree.h"
 
 int main(void) {
