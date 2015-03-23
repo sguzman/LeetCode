@@ -8,7 +8,7 @@ add_executable(sametree src/problems/100/cpp/main.cxx src/problems/100/cpp/samet
 add_executable(sametreec src/problems/100/c/main.c src/problems/100/c/sametree.h src/include/c/TreeNode.h)
 
 # 104
-add_executable(maxdepth src/problems/104/cpp/main.cxx)
+add_executable(maxdepth src/problems/104/cpp/main.cxx src/problems/104/cpp/maxdepth.hxx src/include/cpp/TreeNode.hxx)
 #add_executable(maxdepthc)
 
 # 118
