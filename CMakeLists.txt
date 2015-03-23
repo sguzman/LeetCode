@@ -9,7 +9,7 @@ add_executable(sametreec src/problems/100/c/main.c src/problems/100/c/sametree.h
 
 # 104
 add_executable(maxdepth src/problems/104/cpp/main.cxx src/problems/104/cpp/maxdepth.hxx src/include/cpp/TreeNode.hxx)
-#add_executable(maxdepthc)
+add_executable(maxdepthc src/problems/104/c/main.c src/problems/104/c/maxdepth.h src/include/c/TreeNode.h)
 
 # 118
 add_executable(pascal src/problems/118/cpp/main.cxx src/problems/118/cpp/pascal.hxx src/include/cpp/pretty_print.hxx)
