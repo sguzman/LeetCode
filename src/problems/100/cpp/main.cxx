@@ -13,7 +13,7 @@ int main(void) {
 
 	TreeNode p{5}, q{5};
 
-	cout << sol.isSameTree(p, q) << endl;
+	cout << sol.isSameTree(&p, &q) << endl;
 
 	return 0;
 }
