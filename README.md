@@ -187,27 +187,27 @@ solutions on GitHub.
 |153|[Find Minimum in Rotated Sorted Array](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [C++]()|Medium||
 |154|[Find Minimum in Rotated Sorted Array II](https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [C++]()|Hard||
 |155|[Min Stack](https://oj.leetcode.com/problems/min-stack/)| [C++]()|Easy||
-|156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/) &hearts; | [C++]()|Medium||
-|157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/) &hearts; | [C++]()|Easy||
-|158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) &hearts; | [C++]()|Hard||
-|159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) &hearts; | [C++]()|Hard||
+|156|[Binary Tree Upside Down](https://oj.leetcode.com/problems/binary-tree-upside-down/) &#128214; | [C++]()|Medium||
+|157|[Read N Characters Given Read4](https://oj.leetcode.com/problems/read-n-characters-given-read4/) &#128214; | [C++]()|Easy||
+|158|[Read N Characters Given Read4 II - Call multiple times](https://oj.leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) &#128214; | [C++]()|Hard||
+|159|[Longest Substring with At Most Two Distinct Characters](https://oj.leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) &#128214; | [C++]()|Hard||
 |160|[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/) | [C++]()|Easy||
-|161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)&hearts; | [C++]()|Medium||
+|161|[One Edit Distance](https://oj.leetcode.com/problems/one-edit-distance/)&#128214; | [C++]()|Medium||
 |162|[Find Peak Element](https://oj.leetcode.com/problems/find-peak-element/) | [C++]()|Medium||
-|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/) &hearts; | [C++]()|Medium||
+|163|[Missing Ranges](https://oj.leetcode.com/problems/missing-ranges/) &#128214; | [C++]()|Medium||
 |164|[Maximum Gap](https://oj.leetcode.com/problems/maximum-gap/) | [C++]()|Hard||
 |165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) | [C++]()|Easy||
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | [C++]()|Medium||
-|167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/) &hearts; | [C++]()|Medium||
+|167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/) &#128214; | [C++]()|Medium||
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [C++]()|Easy||
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [C++]()|Easy||
-|170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) &hearts; | [C++]()|Easy||
+|170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) &#128214; | [C++]()|Easy||
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [C++]()|Easy||
 |172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | [C++]()|Easy||
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | [C++]()|Medium||
 |174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | [C++]()|Hard||
 |179|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | [C++]()|Medium||
-|186|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) &hearts; | [C++]()|Medium||
+|186|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/) &#128214; | [C++]()|Medium||
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| [C++]()|Medium||
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [C++]()|Hard||
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [C++]()|Easy||
