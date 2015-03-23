@@ -7,6 +7,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 add_executable(sametree src/problems/100/cpp/main.cxx src/problems/100/cpp/sametree.hxx src/include/TreeNode.hxx)
 add_executable(sametreec src/problems/100/c/main.c src/problems/100/c/sametree.h src/include/TreeNode.h)
 
+# 104
+add_executable(maxdepth src/problems/104/cpp/main.cxx)
+add_executable(maxdepthc)
+
 # 118
 add_executable(pascal src/problems/118/cpp/main.cxx src/problems/118/cpp/pascal.hxx src/include/pretty_print.hxx)
 
