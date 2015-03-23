@@ -212,3 +212,4 @@ solutions on GitHub.
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [C++]()|Hard||
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [C++]()|Easy||
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [C++]()|Easy||
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++]()|Easy||
