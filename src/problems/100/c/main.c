@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+typedef int bool;
+
 #include "TreeNode.h"
 #include "sametree.h"
 
