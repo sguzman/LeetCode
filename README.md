@@ -131,11 +131,11 @@ solutions on GitHub.
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| [C++](./src/interleavingString/interleavingString.cpp)|Hard||
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [C++](./src/validateBinarySearchTree/validateBinarySearchTree.cpp)|Medium||
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [C++](./src/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard||
-|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| [C++](./src/sameTree/sameTree.cpp)|Easy||
+|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| [C++](./src/sameTree/sameTree.cpp)|Easy|&#10004;|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| [C++](./src/symmetricTree/symmetricTree.cpp)|Easy||
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [C++](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp)|Easy||
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [C++](./src/binaryTreeZigzagLevelOrderTraversal/binaryTreeZigzagLevelOrderTraversal.cpp)|Medium||
-|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| [C++](./src/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp)|Easy||
+|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| [C++](./src/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp)|Easy|&#10004;|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](./src/constructBinaryTreeFromPreorderAndInorderTraversal/constructBinaryTreeFromPreorderAndInorderTraversal.cpp)|Medium||
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [C++](./src/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp)|Medium||
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [C++](./src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.II.cpp)|Easy||
@@ -149,7 +149,7 @@ solutions on GitHub.
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [C++](./src/distinctSubsequences/distinctSubsequences.cpp)|Hard||
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| [C++](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cpp)|Medium||
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| [C++](./src/populatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.II.cpp)|Hard||
-|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)| [C++](./src/pascalTriangle/pascalTriangle.cpp)|Easy||
+|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)| [C++](./src/pascalTriangle/pascalTriangle.cpp)|Easy|&#10004;|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)| [C++](./src/pascalTriangle/pascalTriangle.II.cpp)|Easy||
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)| [C++](./src/triangle/triangle.cpp)|Medium||
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [C++](./src/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.cpp)|Medium||
@@ -167,7 +167,7 @@ solutions on GitHub.
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| [C++](./src/cloneGraph/cloneGraph.cpp)|Medium||
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| [C++](./src/gasStation/gasStation.cpp)|Medium||
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| [C++](./src/candy/candy.cpp)|Hard||
-|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [C++](./src/singleNumber/singleNumber.cpp)|Medium||
+|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [C++](./src/singleNumber/singleNumber.cpp)|Medium|&#10004;|
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| [C++](./src/singleNumber/singleNumber.II.cpp)|Medium||
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| [C++](./src/copyListWithRandomPointer/copyListWithRandomPointer.cpp)|Hard||
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| [C++](./src/wordBreak/wordBreak.cpp)|Medium||
@@ -212,4 +212,4 @@ solutions on GitHub.
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [C++]()|Hard||
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [C++]()|Easy||
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [C++]()|Easy||
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++]()|Easy||
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++]()|Easy|&#10004;|
