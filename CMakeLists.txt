@@ -3,6 +3,9 @@ project(LeetCode)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 
+# 100
+add_executable(sametree src/problems/100/cpp/main.cxx src/problems/100/cpp/sametree.hxx src/problems/100/cpp/TreeNode.hxx)
+
 # 118
 add_executable(pascal src/problems/118/cpp/main.cxx src/problems/118/cpp/pascal.hxx src/include/pretty_print.hxx)
 
