@@ -1,6 +1,3 @@
-//
-// Created by SGuzman on 3/19/2015.
-//
 #include <stdio.h>
 #include <tiff.h>
 #include <stdlib.h>
