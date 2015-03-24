@@ -2,6 +2,7 @@
 // Created by SGuzman on 3/19/2015.
 //
 #include <iostream>
+#include <cstdlib>
 
 #include "singlenum.hxx"
 
@@ -13,5 +14,5 @@ int main(void) {
 	Solution sol;
 	cout << sol.singleNumber(nums, size) << endl;
 
-	return 0;
+	return EXIT_SUCCESS;
 }

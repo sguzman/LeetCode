@@ -2,6 +2,7 @@
 // Created by Salvador on 3/22/2015.
 //
 #include <iostream>
+#include <cstdlib>
 
 #include "../../../include/cpp/TreeNode.hxx"
 #include "sametree.hxx"
@@ -15,5 +16,5 @@ int main(void) {
 
 	cout << sol.isSameTree(&p, &q) << endl;
 
-	return 0;
+	return EXIT_SUCCESS;
 }

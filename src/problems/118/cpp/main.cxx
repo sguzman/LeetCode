@@ -2,6 +2,7 @@
 // Created by SGuzman on 3/19/2015.
 //
 #include <iostream>
+#include <cstdlib>
 
 #include "pascal.hxx"
 #include "../../../include/pretty_print.hxx"
@@ -15,5 +16,5 @@ int main(void) {
 		cout << sol.generate(i) << endl;
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }

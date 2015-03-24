@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 #include "../../../include/cpp/TreeNode.hxx"
 #include "maxdepth.hxx"
@@ -15,5 +16,5 @@ int main(void) {
 
     cout << "Max depth: " << sol.maxDepth(&a) << endl;
 
-    return 0;
+    return EXIT_SUCCESS;
 }

@@ -2,6 +2,7 @@
 // Created by SGuzman on 3/19/2015.
 //
 #include <iostream>
+#include <cstdlib>
 
 #include "number1bits.hxx"
 
@@ -14,5 +15,5 @@ int main(void) {
 		cout << sol.hammingWeight(i) << endl;
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }
