@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include <tiff.h>
+#include <stdlib.h>
 
 #include "number1bits.h"
 
@@ -12,6 +13,6 @@ int main(void) {
 		printf("%d\n", hammingWeight(i));
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }
 

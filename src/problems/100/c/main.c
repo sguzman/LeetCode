@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef int bool;
 
@@ -17,5 +18,5 @@ int main(void) {
         printf("False!\n");
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }

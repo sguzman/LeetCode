@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "../../../include/c/TreeNode.h"
 #include "maxdepth.h"
@@ -14,5 +15,5 @@ int main(void) {
 
     printf("%d\n", maxDepth(&a));
 
-    return 0;
+    return EXIT_SUCCESS;
 }
