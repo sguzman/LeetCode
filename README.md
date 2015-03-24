@@ -58,8 +58,8 @@ solutions on GitHub.
 |24|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| [C++]()|Hard||
 |25|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| [C++]()|Easy||
 |26|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| [C++]()|Easy||
-|27|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [C++]()|Easy||
-|28|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [C++]()|Medium||
+|27|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| [C++]()|Medium||
+|28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| [C++]()|Easy||
 |29|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| [C++]()|Hard||
 |30|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [C++]()|Medium||
 |31|[Longest Valid Parentheses](https://oj.leetcode.com/problems/longest-valid-parentheses/)| [C++]()|Hard||
