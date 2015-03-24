@@ -20,7 +20,7 @@ public:
                 }
 
                 if (idx != -1) {
-                    return idx;
+                    return i;
                 }
             }
         }
