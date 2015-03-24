@@ -3,6 +3,9 @@ project(LeetCode)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 
+# 28
+add_executable(strstrNaive src/problems/28/cpp/naive/main.cxx src/problems/28/cpp/naive/strstr.hxx)
+
 # 100
 add_executable(sametree src/problems/100/cpp/main.cxx src/problems/100/cpp/sametree.hxx src/include/cpp/TreeNode.hxx)
 add_executable(sametreec src/problems/100/c/main.c src/problems/100/c/sametree.h src/include/c/TreeNode.h)
