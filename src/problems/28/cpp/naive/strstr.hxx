@@ -3,12 +3,13 @@
 class Solution {
 public:
     int strStr(char* haystack, char* needle) {
-        for (int i = 0; haystack[i] != '\0'; ++i) {
-                for (int j = 0; haystack[i + j] != '\0' && haystack[i + j] == needle[j]; ++j) {
-                    if (needle[j + 1] == '\0') {
-                        return i;
+        int idxHay, idxNee;
+        for (idxHay = 0; haystack[idxHay] != '\0'; ++idxHay) {
+                // Empty For loop
+                for (idxNee = 0; haystack[idxHay + idxNee] != '\0' && needle[idxNee] != '\0' && haystack[idxHay + idxNee] == needle[idxNee]; ++idxNee);
+                    if (needle[idxNee] == '\0') {
+                        return idxHay;
                     }
-                }
         }
 
         return -1;
