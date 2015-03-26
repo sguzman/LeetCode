@@ -1,32 +1,36 @@
 #pragma once
 
+#include <cstring>
+#include <vector>
+
+using std::vector;
+
 class Solution {
 public:
     int strStr(char* haystack, char* needle) {
-        int m, n, j;
-        for (m = n = 0; haystack[m] != '\0'; m += n) {
-            if (haystack[m] == needle[0]) {
-                for ((j = n), n = 0; haystack[m + j] != '\0' && needle[j] != '\0' && haystack[m + j] == needle[j]; ++j) {
-                    if (j > n) {
-                        if (haystack[m + j] == needle[n]) {
-                            ++n;
-                        } else {
-                            n = 0;
-                        }
-                    }
-                }
+        auto haySZ = strlen(haystack);
+        auto neeSZ = strlen(needle);
 
-                if (needle[j] == '\0') {
-                    return m;
-                }
+        vector<int> overlap;
+        buildOverlapTable(needle, neeSZ, overlap);
+    }
 
-                if (n == 0) {
-                    n = j;
-                }
+private:
+    void buildOverlapTable(char* neeedle, size_t sz, vector<int>& table) {
+        table.push_back(0);
+        --sz;
 
+        for (int i = 0; i < sz; ++i) {
+            char ch = neeedle[i + 1];
+            int overlap = table[i];
+
+            for (; overlap != 0 && neeedle[i + 1] != ch; overlap = table[overlap]);
+
+            if (neeedle[i + 1] == ch) {
+                table.push_back(overlap + 1);
+            } else {
+                table.push_back(0);
             }
         }
-
-        return -1;
     }
 };
