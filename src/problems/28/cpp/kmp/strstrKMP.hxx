@@ -2,35 +2,42 @@
 
 #include <cstring>
 #include <vector>
+#include <iostream>
+
+#include "../../../../include/cpp/pretty_print.hxx"
 
 using std::vector;
+using std::cout;
+using std::endl;
 
 class Solution {
 public:
-    int strStr(char* haystack, char* needle) {
-        auto haySZ = strlen(haystack);
-        auto neeSZ = strlen(needle);
-
+    int strStr(char* T, char* P) {
         vector<int> overlap;
-        buildOverlapTable(needle, neeSZ, overlap);
+        buildOverlapTable(P, overlap);
+
+        cout << overlap << endl;
+
+        return -1;
     }
 
 private:
-    void buildOverlapTable(char* neeedle, size_t sz, vector<int>& table) {
+    void buildOverlapTable(char*needle, vector<int>& table) {
+        table.clear();
         table.push_back(0);
-        --sz;
 
-        for (int i = 0; i < sz; ++i) {
-            char ch = neeedle[i + 1];
-            int overlap = table[i];
+        int prefix{};
 
-            for (; overlap != 0 && neeedle[i + 1] != ch; overlap = table[overlap]);
-
-            if (neeedle[i + 1] == ch) {
-                table.push_back(overlap + 1);
-            } else {
-                table.push_back(0);
+        for (char* ptr = needle + 1; *ptr != '\0'; ++ptr) {
+            while (prefix && needle[prefix] != *ptr) {
+                prefix = table[prefix - 1];
             }
+
+            if (*ptr == needle[prefix]) {
+                ++prefix;
+            }
+
+            table.push_back(prefix);
         }
     }
 };
