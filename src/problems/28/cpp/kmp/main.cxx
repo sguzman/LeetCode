@@ -42,10 +42,18 @@ static inline void test3(void) {
     testCase(haystack1, needle1, 0);
 }
 
+static inline void test4(void) {
+    char haystack1[] = "AABAACAADAABAAABAA";
+    char needle1[] = "AABAABAB";
+
+    testCase(haystack1, needle1, 0);
+}
+
 static inline void test(void) {
     test1();
     test2();
     test3();
+    test4();
 }
 
 int main(void) {
