@@ -6,14 +6,15 @@
 
 #include "../../../../include/cpp/pretty_print.hxx"
 
-using std::vector;
 using std::cout;
 using std::endl;
 
 class Solution {
 public:
+    using vector = std::vector<decltype(strlen(""))>;
+
     int strStr(char* T, char* P) {
-        vector<int> overlap;
+        vector overlap;
         buildOverlapTable(P, overlap);
 
         cout << overlap << endl;
@@ -22,7 +23,7 @@ public:
     }
 
 private:
-    void buildOverlapTable(char*needle, vector<int>& table) {
+    void buildOverlapTable(char* needle, vector& table) {
         table.clear();
         table.push_back(0);
 
