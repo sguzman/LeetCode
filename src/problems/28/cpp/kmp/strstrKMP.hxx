@@ -11,7 +11,8 @@ using std::endl;
 
 class Solution {
 public:
-    using vector = std::vector<decltype(strlen(""))>;
+    using index_t = int;
+    using vector = std::vector<index_t>;
 
     int strStr(char* T, char* P) {
         vector overlap;
@@ -24,21 +25,35 @@ public:
 
 private:
     void buildOverlapTable(char* needle, vector& table) {
+        const auto strLen = strlen(needle);
         table.clear();
+
+        if (strLen == 0) {
+            return;
+        }
+
+        table.reserve(strLen);
+        table.push_back(-1);
+
+        if (strLen <= 1) {
+            return;
+        }
+
         table.push_back(0);
 
-        int prefix{};
+        index_t pos = 2, cnd = 0;
 
-        for (char* ptr = needle + 1; *ptr != '\0'; ++ptr) {
-            while (prefix && needle[prefix] != *ptr) {
-                prefix = table[prefix - 1];
+        while (pos < strLen) {
+            if (needle[pos - 1] == needle[cnd]) {
+                ++cnd;
+                table.push_back(cnd);
+                ++pos;
+            } else if (cnd > 0) {
+                cnd = table[cnd];
+            } else {
+                table.push_back(0);
+                ++pos;
             }
-
-            if (*ptr == needle[prefix]) {
-                ++prefix;
-            }
-
-            table.push_back(prefix);
         }
     }
 };
