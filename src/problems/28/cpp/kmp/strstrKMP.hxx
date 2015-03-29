@@ -7,9 +7,10 @@ class Solution {
 public:
     using vector = std::vector<int>;
 
-    int strStr(char* T, char* P) {
-        if (T[0] == '\0' || P[0] == '\0') {
-            if (P[0] == '\0') {
+    int strStr(char* haystack, char* needle
+    ) {
+        if (haystack[0] == '\0' || needle[0] == '\0') {
+            if (needle[0] == '\0') {
                 return 0;
             }
 
@@ -17,12 +18,12 @@ public:
         }
 
         vector overlap;
-        buildOverlapTable(P, overlap);
+        buildOverlapTable(needle, overlap);
 
-        const auto length = strlen(T), end = overlap.size() - 1;
+        const auto length = strlen(haystack), end = overlap.size() - 1;
 
         for (int m{}, i{}; m + i < length;) {
-            if (P[i] == T[m + i]) {
+            if (needle[i] == haystack[m + i]) {
                 if (i == end) {
                     return m;
                 }
