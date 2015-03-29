@@ -46,7 +46,7 @@ static inline void test4(void) {
     char haystack1[] = "AABAACAADAABAAABAA";
     char needle1[] = "AABAABAB";
 
-    testCase(haystack1, needle1, 0);
+    testCase(haystack1, needle1, -1);
 }
 
 static inline void test(void) {
