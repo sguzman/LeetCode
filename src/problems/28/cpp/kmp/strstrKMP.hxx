@@ -8,12 +8,14 @@ public:
     using vector = std::vector<int>;
 
     int strStr(char* haystack, char* needle) {
-        if (haystack[0] == '\0' || needle[0] == '\0') {
-            if (needle[0] == '\0') {
-                return 0;
-            }
+        {
+            if (haystack[0] == '\0' || needle[0] == '\0') {
+                if (needle[0] == '\0') {
+                    return 0;
+                }
 
-            return -1;
+                return -1;
+            }
         }
 
         vector overlap;
