@@ -14,7 +14,24 @@ public:
         vector overlap;
         buildOverlapTable(P, overlap);
 
-        cout << overlap << endl;
+        const auto length = strlen(T), end = overlap.size() - 1;
+
+        for (int m{}, i{}; m + i < length;) {
+            if (P[i] == T[m + i]) {
+                if (i == end) {
+                    return m;
+                }
+                ++i;
+            } else {
+                if (overlap[i] > -1) {
+                    m += i - overlap[i];
+                    i = overlap[i];
+                } else {
+                    i = 0;
+                    ++m;
+                }
+            }
+        }
 
         return -1;
     }
