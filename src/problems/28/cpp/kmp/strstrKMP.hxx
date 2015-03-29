@@ -3,9 +3,6 @@
 #include <vector>
 #include <cstring>
 
-using std::cout;
-using std::endl;
-
 class Solution {
 public:
     using vector = std::vector<int>;
