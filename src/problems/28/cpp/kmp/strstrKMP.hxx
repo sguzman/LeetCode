@@ -25,34 +25,35 @@ public:
 
 private:
     void buildOverlapTable(char* needle, vector& table) {
-        const auto strLen = strlen(needle);
         table.clear();
 
-        if (strLen == 0) {
+        if (needle[0] == '\0') {
             return;
         }
 
-        table.reserve(strLen);
         table.push_back(-1);
 
-        if (strLen <= 1) {
+        if (needle[1] == '\0') {
             return;
         }
 
         table.push_back(0);
 
-        index_t pos = 2, cnd = 0;
+        // Table constructing magic
+        {
+            index_t cnd{};
 
-        while (pos < strLen) {
-            if (needle[pos - 1] == needle[cnd]) {
-                ++cnd;
-                table.push_back(cnd);
-                ++pos;
-            } else if (cnd > 0) {
-                cnd = table[cnd];
-            } else {
-                table.push_back(0);
-                ++pos;
+            for (char* str = needle + 2; *str != '\0';) {
+                if (str[-1] == needle[cnd]) {
+                    ++cnd;
+                    table.push_back(cnd);
+                    ++str;
+                } else if (cnd > 0) {
+                    cnd = table[cnd];
+                } else {
+                    table.push_back(0);
+                    ++str;
+                }
             }
         }
     }
