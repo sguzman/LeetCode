@@ -1,18 +1,14 @@
 #pragma once
 
-#include <cstring>
 #include <vector>
-#include <iostream>
-
-#include "../../../../include/cpp/pretty_print.hxx"
+#include <cstring>
 
 using std::cout;
 using std::endl;
 
 class Solution {
 public:
-    using index_t = int;
-    using vector = std::vector<index_t>;
+    using vector = std::vector<int>;
 
     int strStr(char* T, char* P) {
         vector overlap;
@@ -41,7 +37,7 @@ private:
 
         // Table constructing magic
         {
-            index_t cnd{};
+            int cnd{};
 
             for (char* str = needle + 2; *str != '\0';) {
                 if (str[-1] == needle[cnd]) {
