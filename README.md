@@ -30,8 +30,8 @@ solutions on GitHub.
 - C
 
 ### Algorithms
-| # | Title | C++ | C | Python | JavaScript | Java | C# | Ruby | Difficulty | Done |
-|---| ----- | --- | - | ------ | ---------- | ---- | -- | ---- | ---------- | ---- |
+| # | Title | Premium | C++ | C | Python | JavaScript | Java | C# | Ruby | Difficulty | Done |
+|---| ----- | ------- | --- | - | ------ | ---------- | ---- | -- | ---- | ---------- | ---- |
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| |Medium||
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |Medium||
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |Medium||
