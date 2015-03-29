@@ -9,6 +9,10 @@ public:
 
     int strStr(char* T, char* P) {
         if (T[0] == '\0' || P[0] == '\0') {
+            if (P[0] == '\0') {
+                return 0;
+            }
+
             return -1;
         }
 
