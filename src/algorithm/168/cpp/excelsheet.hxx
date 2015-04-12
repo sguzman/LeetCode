@@ -1,8 +1,11 @@
 #pragma once
 
+#include <cstdlib>
+#include <string>
+
 class Solution {
 public:
-  string convertToTitle(int n) {
+  std::string convertToTitle(int n) {
     if (n == 0) {
       return "";
     } else {
