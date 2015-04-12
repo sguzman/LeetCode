@@ -218,6 +218,8 @@ solutions on GitHub.
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium||
 
 ### [Database](https://leetcode.com/problemset/database/)
+| # | Title | Premium | Solutions | Difficulty | Done |
+|---| ----- | ------- | --------- | ---------- | ---- |
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)| | |Easy||
 |176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)| | |Easy||
 |177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)| | |Medium||
@@ -232,6 +234,8 @@ solutions on GitHub.
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)| | |Easy||
 
 ### [Shell](https://leetcode.com/problemset/shell/)
+| # | Title | Premium | Solutions | Difficulty | Done |
+|---| ----- | ------- | --------- | ---------- | ---- |
 |192|[Word Frequency](https://leetcode.com/problems/word-frequency/)| | |Medium||
 |193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)| | |Easy||
 |194|[Transpose File](https://leetcode.com/problems/transpose-file/)| | |Medium||
