@@ -232,3 +232,7 @@ solutions on GitHub.
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)| | |Easy||
 
 ### [Shell](https://leetcode.com/problemset/shell/)
+|192|[Word Frequency](https://leetcode.com/problems/word-frequency/)| | |Medium||
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)| | |Easy||
+|194|[Transpose File](https://leetcode.com/problems/transpose-file/)| | |Medium||
+|195|[Tenth Line](https://leetcode.com/problems/tenth-line/)| | |Easy||
