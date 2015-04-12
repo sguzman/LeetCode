@@ -152,7 +152,7 @@ solutions on GitHub.
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| | |Hard||
 |116|[Populating Next Right Pointers in Each Node](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)| | |Medium||
 |117|[Populating Next Right Pointers in Each Node II](https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)| | |Hard||
-|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)| | |Easy|&#10004;|
+|118|[Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/118/cpp) |Easy|&#10004;|
 |119|[Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/)| | |Easy||
 |120|[Triangle](https://oj.leetcode.com/problems/triangle/)| | |Medium||
 |121|[Best Time to Buy and Sell Stock](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)| | |Medium||
