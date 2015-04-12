@@ -215,3 +215,4 @@ solutions on GitHub.
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| | |Easy|&#10004;|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| | |Easy||
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| | |Medium||
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium||
