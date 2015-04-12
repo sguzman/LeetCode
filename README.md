@@ -134,7 +134,7 @@ solutions on GitHub.
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| | |Hard||
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| | |Medium||
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| | |Hard||
-|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| | |Easy|&#10004;|
+|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/100/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/100/c) |Easy|&#10004;|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| | |Easy||
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| | |Easy||
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| | |Medium||
