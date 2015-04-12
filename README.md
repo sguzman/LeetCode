@@ -28,6 +28,9 @@ solutions on GitHub.
 #### Languages
 - C++
 - C
+- JavaScript
+- Python
+- Java
 
 ### [Algorithm](https://leetcode.com/problemset/algorithms/)
 | # | Title | Premium | Solutions | Difficulty | Done |
