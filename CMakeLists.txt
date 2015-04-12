@@ -38,6 +38,9 @@ add_executable(trailingzerosc src/algorithm/172/c/main.c src/algorithm/172/c/tra
 # 189
 add_executable(rotatearray src/algorithm/189/cpp/main.cxx src/algorithm/189/cpp/rotatearray.hxx)
 
+# 190
+add_executable(reversebits src/algorithm/190/cpp/main.cxx src/algorithm/190/cpp/reversebits.hxx)
+
 # 191
 add_executable(number1bits src/algorithm/191/cpp/main.cxx src/algorithm/191/cpp/number1bits.hxx)
 add_executable(number1bitsc src/algorithm/191/c/main.c src/algorithm/191/c/number1bits.h)
