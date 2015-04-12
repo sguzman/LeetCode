@@ -202,8 +202,8 @@ solutions on GitHub.
 |165|[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/) | | |Easy||
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | | |Medium||
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|&#9733;| |Medium||
-|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | | |Easy|&#10004;|
-|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | | |Easy|&#10004;|
+|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/168/cpp) |Easy|&#10004;|
+|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/169/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/169/c) |Easy|&#10004;|
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)|&#9733;| |Easy||
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | | |Easy|&#10004;|
 |172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | | |Easy|&#10004;|
