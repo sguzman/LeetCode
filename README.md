@@ -170,7 +170,7 @@ solutions on GitHub.
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| | |Medium||
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| | |Medium||
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| | |Hard||
-|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| | |Medium|&#10004;|
+|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/136/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/136/c) |Medium|&#10004;|
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| | |Medium||
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard||
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| | |Medium||
