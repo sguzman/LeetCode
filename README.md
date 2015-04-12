@@ -29,7 +29,7 @@ solutions on GitHub.
 - C++
 - C
 
-### Algorithms
+### [Algorithms](https://leetcode.com/problemset/algorithms/)
 | # | Title | Premium | Solutions | Difficulty | Done |
 |---| ----- | ------- | --------- | ---------- | ---- |
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| | |Medium||
@@ -217,7 +217,7 @@ solutions on GitHub.
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| | |Medium||
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium||
 
-### Database
+### [Database](https://leetcode.com/problemset/database/)
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)| | |Easy||
 |176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)| | |Easy||
 |177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)| | |Medium||
@@ -231,4 +231,4 @@ solutions on GitHub.
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)| | |Easy||
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)| | |Easy||
 
-
+### [Shell](https://leetcode.com/problemset/shell/)
