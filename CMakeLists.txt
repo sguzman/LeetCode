@@ -35,6 +35,9 @@ add_executable(excelsheetcolnumberc src/algorithm/171/c/main.c src/algorithm/171
 add_executable(trailingzeros src/algorithm/172/cpp/main.cxx src/algorithm/172/cpp/trailingzeros.hxx)
 add_executable(trailingzerosc src/algorithm/172/c/main.c src/algorithm/172/c/trailingzeros.h)
 
+# 189
+add_executable(rotatearray src/algorithm/189/cpp/main.cxx src/algorithm/189/cpp/rotatearray.hxx)
+
 # 191
 add_executable(number1bits src/algorithm/191/cpp/main.cxx src/algorithm/191/cpp/number1bits.hxx)
 add_executable(number1bitsc src/algorithm/191/c/main.c src/algorithm/191/c/number1bits.h)
