@@ -40,6 +40,7 @@ add_executable(rotatearray src/algorithm/189/cpp/main.cxx src/algorithm/189/cpp/
 
 # 190
 add_executable(reversebits src/algorithm/190/cpp/main.cxx src/algorithm/190/cpp/reversebits.hxx)
+add_executable(reversebitsc src/algorithm/190/c/main.c src/algorithm/190/c/reversebits.h)
 
 # 191
 add_executable(number1bits src/algorithm/191/cpp/main.cxx src/algorithm/191/cpp/number1bits.hxx)
