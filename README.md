@@ -62,7 +62,7 @@ solutions on GitHub.
 |25|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| | |Hard||
 |26|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| | |Easy||
 |27|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| | |Easy||
-|28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| | |Easy|&#10004;|
+|28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/28/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/28/c/) [JavaScript](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/28/javascript/) [Python](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/28/python) [Java](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/28/java/) |Easy|&#10004;|
 |29|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| | |Medium||
 |30|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| | |Hard||
 |31|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| | |Medium||
