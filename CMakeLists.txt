@@ -29,6 +29,7 @@ add_executable(excelsheetcoltitle src/algorithm/168/cpp/main.cxx src/algorithm/1
 
 # 169
 add_executable(majorityelement src/algorithm/169/cpp/main.cxx src/algorithm/169/cpp/majorityelement.hxx)
+add_executable(majorityelementc src/algorithm/169/c/main.c src/algorithm/169/c/majorityelement.h)
 
 # 171
 add_executable(excelsheetcolnumber src/algorithm/171/cpp/main.cxx src/algorithm/171/cpp/excelnumber.hxx)
