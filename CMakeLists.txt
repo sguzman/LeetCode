@@ -27,6 +27,9 @@ add_executable(singlenum src/algorithm/136/cpp/main.cxx src/algorithm/136/cpp/si
 # 168
 add_executable(excelsheetcoltitle src/algorithm/168/cpp/main.cxx src/algorithm/168/cpp/excelsheet.hxx)
 
+# 171
+add_executable(excelsheetcolnumber src/algorithm/171/cpp/main.cxx src/algorithm/171/cpp/excelnumber.hxx)
+
 # 191
 add_executable(number1bits src/algorithm/191/cpp/main.cxx src/algorithm/191/cpp/number1bits.hxx)
 add_executable(number1bitsc src/algorithm/191/c/main.c src/algorithm/191/c/number1bits.h)
