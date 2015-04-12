@@ -29,7 +29,7 @@ solutions on GitHub.
 - C++
 - C
 
-### [Algorithms](https://leetcode.com/problemset/algorithms/)
+### [Algorithm](https://leetcode.com/problemset/algorithms/)
 | # | Title | Premium | Solutions | Difficulty | Done |
 |---| ----- | ------- | --------- | ---------- | ---- |
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| | |Medium||
