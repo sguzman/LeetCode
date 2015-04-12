@@ -213,3 +213,4 @@ solutions on GitHub.
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| | |Easy||
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| | |Easy||
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| | |Easy|&#10004;|
+|198|[House Robber](https://leetcode.com/problems/house-robber/)| | |Easy||
