@@ -216,3 +216,19 @@ solutions on GitHub.
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| | |Easy||
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| | |Medium||
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium||
+
+### Database
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)| | |Easy||
+|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)| | |Easy||
+|177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)| | |Medium||
+|178|[Rank Scores](https://leetcode.com/problems/rank-scores/)| | |Medium||
+|180|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)| | |Medium||
+|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)| | |Easy||
+|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)| | |Easy||
+|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)| | |Easy||
+|184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)| | |Medium||
+|185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)| | |Hard||
+|196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)| | |Easy||
+|197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)| | |Easy||
+
+
