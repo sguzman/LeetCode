@@ -33,6 +33,7 @@ add_executable(excelsheetcolnumberc src/algorithm/171/c/main.c src/algorithm/171
 
 # 172
 add_executable(trailingzeros src/algorithm/172/cpp/main.cxx src/algorithm/172/cpp/trailingzeros.hxx)
+add_executable(trailingzerosc src/algorithm/172/c/main.c src/algorithm/172/c/trailingzeros.h)
 
 # 191
 add_executable(number1bits src/algorithm/191/cpp/main.cxx src/algorithm/191/cpp/number1bits.hxx)
