@@ -205,17 +205,17 @@ solutions on GitHub.
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/168/cpp) |Easy|&#10004;|
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/169/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/169/c) |Easy|&#10004;|
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)|&#9733;| |Easy||
-|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | | |Easy|&#10004;|
-|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | | |Easy|&#10004;|
+|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/171/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/171/c) |Easy|&#10004;|
+|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/172/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/172/c) |Easy|&#10004;|
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | | |Medium||
 |174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | | |Hard||
 |179|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | | |Medium||
 |186|[Reverse Words in a String II](https://oj.leetcode.com/problems/reverse-words-in-a-string-ii/)|&#9733;| |Medium||
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| | |Medium||
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| | |Hard||
-|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| | |Easy|&#10004;|
-|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| | |Easy|&#10004;|
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| | |Easy|&#10004;|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/189/cpp) |Easy|&#10004;|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/190/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/190/c) |Easy|&#10004;|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/191/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/191/c) |Easy|&#10004;|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| | |Easy||
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| | |Medium||
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium||
