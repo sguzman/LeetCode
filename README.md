@@ -138,7 +138,7 @@ solutions on GitHub.
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| | |Easy||
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| | |Easy||
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| | |Medium||
-|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| | |Easy|&#10004;|
+|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/104/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/104/c) |Easy|&#10004;|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| | |Medium||
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| | |Medium||
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| | |Easy||
