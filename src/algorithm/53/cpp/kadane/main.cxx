@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
+#include <vector>
 #include "maxsum.hxx"
 #include "../../../../include/cpp/test.hxx"
 
@@ -7,12 +8,11 @@ using namespace std;
 
 int main(void) {
   Solution sol;
-  int array[9] {-2,1,-3,4,-1,2,1,-5,4};
+  std::vector<int> array1{-2,1,-3,4,-1,2,1,-5,4};
+  std::vector<int> array2{-1};
 
-  int actual = sol.maxSubArray(array, 9) + 1;
-  int expected = 6;
-
-  Test::assertEquals(expected, actual);
+  Test::assertEquals<int>(6, sol.maxSubArray(array1));
+  Test::assertEquals<int>(-1, sol.maxSubArray(array2));
 
   return EXIT_SUCCESS;
 }
