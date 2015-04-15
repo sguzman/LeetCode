@@ -87,7 +87,7 @@ solutions on GitHub.
 |50|["Pow(x, n)"](https://oj.leetcode.com/problems/powx-n/)| | |Medium||
 |51|[N-Queens](https://oj.leetcode.com/problems/n-queens/)| | |Hard||
 |52|[N-Queens II](https://oj.leetcode.com/problems/n-queens-ii/)| | |Hard||
-|53|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)| | |Medium||
+|53|[Maximum Subarray](https://oj.leetcode.com/problems/maximum-subarray/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/53/cpp)|Medium|&#9733;|
 |54|[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)| | |Medium||
 |55|[Jump Game](https://oj.leetcode.com/problems/jump-game/)| | |Medium||
 |56|[Merge Intervals](https://oj.leetcode.com/problems/merge-intervals/)| | |Hard||
