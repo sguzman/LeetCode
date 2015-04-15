@@ -5,18 +5,13 @@
 class Solution {
 public:
   int maxSubArray(std::vector<int>& nums) {
-    int maxSum{}, sumSoFar{ };
+    int maxSum{nums.front()}, sumSoFar{nums.front()};
 
-    for (int i = 0; i < nums.size(); ++i) {
-      sumSoFar += nums[i];
-
-      if (sumSoFar < 0) {
-        sumSoFar = 0;
-      } else if (maxSum < sumSoFar) {
-        maxSum = sumSoFar;
-      }
+    for (auto& num: nums) {
+      maxSum = std::max(num, maxSum + num);
+      sumSoFar = std::max(sumSoFar, maxSum);
     }
 
-    return maxSum;
+    return sumSoFar;
   }
 };
