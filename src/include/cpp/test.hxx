@@ -23,7 +23,7 @@ struct Test final {
            << "\texpected(" << expected << ") ";
     } else {
       cout << "FAILURE:" << endl
-           << "\t" << msg << ": " << "expected(" << expected << ") !";
+           << "\t" << msg << "expected(" << expected << ") !";
     }
 
     cout << "= actual(" << actual << ")." << endl;
@@ -36,6 +36,6 @@ struct Test final {
 
   template <typename A>
   static void assertEquals(A expected, A actual) {
-    Test::assertEquals<A>("Actual does not match expected", expected, actual);
+    Test::assertEquals<A>("", expected, actual);
   }
 };
