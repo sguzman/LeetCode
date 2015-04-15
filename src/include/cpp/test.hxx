@@ -17,7 +17,7 @@ struct Test final {
   operator A(void) = delete;
 
   template <typename A>
-  static void assertEquals(const char* const msg, A expected, A actual) {
+  static inline void assertEquals(const char* const msg, A expected, A actual) {
     if (expected == actual) {
       cout << "SUCCESS:" << endl
            << "\texpected(" << expected << ") ";
@@ -30,12 +30,12 @@ struct Test final {
   }
 
   template <typename A>
-  static void assertEquals(std::string msg, A expected, A actual) {
+  static inline void assertEquals(std::string msg, A expected, A actual) {
     Test::assertEquals<A>(msg.c_str(), expected, actual);
   }
 
   template <typename A>
-  static void assertEquals(A expected, A actual) {
+  static inline void assertEquals(A expected, A actual) {
     Test::assertEquals<A>("", expected, actual);
   }
 };
