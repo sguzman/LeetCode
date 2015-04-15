@@ -1,12 +1,14 @@
 #pragma once
 
+#include <vector>
+
 class Solution {
 public:
-  int maxSubArray(int A[], int n) {
+  int maxSubArray(std::vector<int>& nums) {
     int maxSum{}, sumSoFar{ };
 
-    for (int i = 0; i < n; ++i) {
-      sumSoFar += A[i];
+    for (int i = 0; i < nums.size(); ++i) {
+      sumSoFar += nums[i];
 
       if (sumSoFar < 0) {
         sumSoFar = 0;
