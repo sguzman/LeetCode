@@ -9,6 +9,9 @@ add_executable(strstrNaive src/algorithm/28/cpp/naive/main.cxx src/algorithm/28/
 add_executable(strstrKMP src/algorithm/28/cpp/kmp/main.cxx src/algorithm/28/cpp/kmp/strstrKMP.hxx)
 add_executable(strstrc src/algorithm/28/c/kmp/main.c src/algorithm/28/c/kmp/strstr.h)
 
+# 53
+add_executable(maxsum src/algorithm/53/cpp/main.cxx src/algorithm/53/cpp/maxsum.hxx)
+
 # 100
 add_executable(sametree src/algorithm/100/cpp/main.cxx src/algorithm/100/cpp/sametree.hxx src/include/cpp/TreeNode.hxx)
 add_executable(sametreec src/algorithm/100/c/main.c src/algorithm/100/c/sametree.h src/include/c/TreeNode.h)
