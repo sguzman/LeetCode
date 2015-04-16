@@ -5,8 +5,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 
 # 28
-add_executable(strstrNaive src/algorithm/28/cpp/naive/main.cxx src/algorithm/28/cpp/naive/strstr.hxx)
+add_executable(strstrHorspool src/algorithm/28/cpp/horspool/main.cxx src/algorithm/28/cpp/horspool/horspool.hxx)
 add_executable(strstrKMP src/algorithm/28/cpp/kmp/main.cxx src/algorithm/28/cpp/kmp/strstrKMP.hxx)
+add_executable(strstrNaive src/algorithm/28/cpp/naive/main.cxx src/algorithm/28/cpp/naive/strstr.hxx)
 add_executable(strstrc src/algorithm/28/c/kmp/main.c src/algorithm/28/c/kmp/strstr.h)
 
 # 53
