@@ -17,8 +17,10 @@ struct Test final {
   operator A(void) = delete;
 
   template <typename A>
-  static inline void assertEquals(const char* const msg, A expected, A actual) {
-    if (expected == actual) {
+  static inline bool assertEquals(const char* const msg, A expected, A actual) {
+    bool ret = expected == actual;
+
+    if (ret) {
       cout << "SUCCESS:" << endl
            << "\texpected(" << expected << ") ";
     } else {
@@ -27,15 +29,32 @@ struct Test final {
     }
 
     cout << "= actual(" << actual << ")." << endl;
+
+    return ret;
   }
 
   template <typename A>
-  static inline void assertEquals(std::string msg, A expected, A actual) {
-    Test::assertEquals<A>(msg.c_str(), expected, actual);
+  static inline bool assertEquals(std::string msg, A expected, A actual) {
+    return Test::assertEquals<A>(msg.c_str(), expected, actual);
   }
 
   template <typename A>
-  static inline void assertEquals(A expected, A actual) {
-    Test::assertEquals<A>("", expected, actual);
+  static inline bool assertEquals(A expected, A actual) {
+    return Test::assertEquals<A>("", expected, actual);
   }
+
+  template <class C, template <class C> class A, template <class C> class B>
+  static inline void assertEquals(const A<C>& expected, const B<C>& actual) {
+    auto success = 0, failure = 0;
+
+    for (auto iter1 = expected.cbegin(), iter2 = actual.cbegin();
+         iter1 != expected.cend() && iter2 != actual.cend(); ++iter1, ++iter2) {
+      if (Test::assertEquals<C>(*iter1, *iter2)) {
+        ++success;
+      } else {
+        ++failure;
+      }
+    }
+  }
+
 };
