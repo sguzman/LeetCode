@@ -43,7 +43,7 @@ struct Test final {
     return Test::assertEquals<A>("", expected, actual);
   }
 
-  template <class C, template <class C> class A, template <class C> class B>
+  template <typename C, template <class...> class A, template <class...> class B>
   static inline void assertEquals(const A<C>& expected, const B<C>& actual) {
     auto success = 0, failure = 0;
 
@@ -55,6 +55,9 @@ struct Test final {
         ++failure;
       }
     }
+
+    cout << "Success: " << success << endl
+         << "Failure: " << failure << endl;
   }
 
 };
