@@ -47,10 +47,6 @@ public:
     for (int i = 0; i < lastIdx; ++i) {
       table[needle[i]] = lastIdx - i;
     }
-
-    if (exists(table, needle.back())) {
-      table[needle.back()] = static_cast<int>(needle.length()) - lastIdx - 1;
-    }
   }
 
 private:
