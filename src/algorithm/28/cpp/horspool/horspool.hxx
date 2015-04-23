@@ -21,7 +21,7 @@ public:
     std::unordered_map<char, int> badMatch;
     badCharTable(badMatch, needle);
     // This value will be used quite a lot
-    const int length = (int) needle.length();
+    const int length = static_cast<int>(needle.length());
     const int lastIdx = length - 1;
 
     for (int m = lastIdx, i = m; m < haystack.length();) {
@@ -33,7 +33,7 @@ public:
         --i;
       } else {
         i = lastIdx;
-        m += Solution::getDefault(badMatch, haystack[m], (int) needle.length());
+        m += Solution::getDefault(badMatch, haystack[m], length);
       }
     }
 
