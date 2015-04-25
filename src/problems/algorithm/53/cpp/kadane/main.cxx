@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <vector>
 #include "maxsum.hxx"
-#include "../../../../include/cpp/test.hxx"
+#include "../../../../../include/cpp/test.hxx"
 
 using namespace std;
 

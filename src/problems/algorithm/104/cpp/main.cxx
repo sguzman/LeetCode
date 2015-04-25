@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "../../../include/cpp/TreeNode.hxx"
+#include "../../../../include/cpp/TreeNode.hxx"
 #include "maxdepth.hxx"
 
 using namespace std;

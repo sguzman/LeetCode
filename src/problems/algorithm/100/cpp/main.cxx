@@ -4,7 +4,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "../../../include/cpp/TreeNode.hxx"
+#include "../../../../include/cpp/TreeNode.hxx"
 #include "sametree.hxx"
 
 using namespace std;

@@ -2,7 +2,7 @@
 #include <cstdlib>
 
 #include "pascal.hxx"
-#include "../../../include/cpp/pretty_print.hxx"
+#include "../../../../include/cpp/pretty_print.hxx"
 
 using namespace std;
 

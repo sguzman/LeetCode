@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-#include "../../../../include/cpp/test.hxx"
+#include "../../../../../include/cpp/test.hxx"
 #include "horspool.hxx"
 
 using namespace std;
