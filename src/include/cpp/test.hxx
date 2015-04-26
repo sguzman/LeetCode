@@ -2,6 +2,8 @@
 
 #include <iostream>
 #include <string>
+#include <cassert>
+#include <exception>
 
 using std::cout;
 using std::endl;
@@ -45,6 +47,7 @@ struct Test final {
 
   template <typename C, template <class...> class A, template <class...> class B>
   static inline void assertEquals(const A<C>& expected, const B<C>& actual) {
+    assert(expected.size() == actual.size());
     auto success = 0, failure = 0;
 
     for (auto iter1 = expected.cbegin(), iter2 = actual.cbegin();
