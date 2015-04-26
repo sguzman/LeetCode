@@ -13,6 +13,9 @@ add_executable(strstrc src/problems/algorithm/28/c/kmp/main.c src/problems/algor
 # 53
 add_executable(maxsum src/problems/algorithm/53/cpp/kadane/main.cxx src/problems/algorithm/53/cpp/kadane/maxsum.hxx src/include/cpp/test.hxx)
 
+# 96
+add_executable(uniquebst src/problems/algorithm/96/cpp/main.cxx src/problems/algorithm/96/cpp/uniquebst.hxx src/include/cpp/test.hxx)
+
 # 100
 add_executable(sametree src/problems/algorithm/100/cpp/main.cxx src/problems/algorithm/100/cpp/sametree.hxx src/include/cpp/TreeNode.hxx)
 add_executable(sametreec src/problems/algorithm/100/c/main.c src/problems/algorithm/100/c/sametree.h src/include/c/TreeNode.h)
