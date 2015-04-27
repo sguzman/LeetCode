@@ -19,13 +19,13 @@ private:
     if (exists(n)) {
       return fHashMap[n];
     } else {
-      if (n <= 1ull) {
-        return fHashMap[n] = 1ull;
+      if (n < 2ull) {
+        return fHashMap[n] = n;
       } else {
         auto sum = 0ull;
 
-        for (auto i = 0ull; i < n; ++i) {
-          sum += f(i) + f(n - i);
+        for (auto i = 0ull, j = n - 1; i < n; ++i, --j) {
+          sum += f(i) + f(j);
         }
 
         return fHashMap[n] = sum;

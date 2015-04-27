@@ -18,6 +18,13 @@ struct Test final {
   template <typename A>
   operator A(void) = delete;
 
+  template <template <class...> class A, class B, typename D>
+  static inline void map(A<B>& container, D func) {
+    for (auto &i : container) {
+      i = func(i);
+    }
+  }
+
   template <typename A>
   static inline bool assertEquals(const char* const msg, A expected, A actual) {
     bool ret = expected == actual;
