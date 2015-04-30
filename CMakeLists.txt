@@ -1,7 +1,21 @@
 cmake_minimum_required(VERSION 3.1)
 project(LeetCode)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
+IF(EXISTS ${/usr/bin/clang})
+    set(CMAKE_CXX_COMPILER             "/usr/bin/clang++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1z")
+    set(CMAKE_AR      "/usr/bin/llvm-ar")
+    #set(CMAKE_LINKER  "/usr/bin/llvm-ld")
+    set(CMAKE_NM      "/usr/bin/llvm-nm")
+    set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
+    set(CMAKE_RANLIB  "/usr/bin/llvm-ranlib")
+ELSE()
+    set(CMAKE_CXX_COMPILER             "/usr/bin/g++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
+
+ENDIF()
+
+
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 
 # 28
