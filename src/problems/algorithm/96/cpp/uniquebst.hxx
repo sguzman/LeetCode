@@ -7,7 +7,7 @@ using ull = unsigned long long;
 class Solution {
 public:
   int numTrees(int n) {
-    ull ret = static_cast<unsigned long long>(n);
+    ull ret = static_cast<ull>(n);
 
     ret = f(ret);
 
@@ -19,13 +19,14 @@ private:
     if (exists(n)) {
       return fHashMap[n];
     } else {
+
       if (n < 2ull) {
-        return fHashMap[n] = n;
+        return fHashMap[n] = 1ull;
       } else {
         auto sum = 0ull;
 
-        for (auto i = 0ull, j = n - 1; i < n; ++i, --j) {
-          sum += f(i) + f(j);
+        for (auto i = 0ull, j = n - 1ull; i < n; ++i, --j) {
+          sum += f(i) * f(j);
         }
 
         return fHashMap[n] = sum;
