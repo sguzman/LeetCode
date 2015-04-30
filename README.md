@@ -4,11 +4,10 @@
 Some of my solutions to [LeetCode](https://leetcode.com) problems.
 
 #### Explanation
-Most of them will be
-done in C++ or C (maybe JavaScript). If the solutions are not readable, it's because
-I'm trying to optimize for speed. Seeing as LeetCode provides a run time count, I
-like minimizing it. That explains why I use C sometimes; it tends to run the solutions
-faster than C++. C solutions will be indicated by the letter `c` appended to the C++ solution
+Most of them will be done in C++ or C (maybe JavaScript). If the solutions are not readable, it's because I'm trying to
+optimize for speed. Seeing as LeetCode provides a run time count, I like minimizing it. That explains why I use C
+sometimes; it tends to run the solutions faster than C++. C solutions will be indicated by the letter `c` appended to
+the C++ solution name.
 
 #### CMake
 I have added a build setup for each solution in CMake that is done in C or C++.
