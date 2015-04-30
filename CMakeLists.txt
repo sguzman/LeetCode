@@ -30,6 +30,7 @@ add_executable(maxsum src/problems/algorithm/53/cpp/kadane/main.cxx src/problems
 
 # 96
 add_executable(uniquebst src/problems/algorithm/96/cpp/main.cxx src/problems/algorithm/96/cpp/uniquebst.hxx src/include/cpp/test.hxx)
+target_link_libraries(uniquebst gtest)
 
 # 100
 add_executable(sametree src/problems/algorithm/100/cpp/main.cxx src/problems/algorithm/100/cpp/sametree.hxx src/include/cpp/TreeNode.hxx)
