@@ -128,7 +128,7 @@ solutions on GitHub.
 |92|[Reverse Linked List II](https://oj.leetcode.com/problems/reverse-linked-list-ii/)| | |Medium||
 |93|[Restore IP Addresses](https://oj.leetcode.com/problems/restore-ip-addresses/)| | |Medium||
 |94|[Binary Tree Inorder Traversal](https://oj.leetcode.com/problems/binary-tree-inorder-traversal/)| | |Medium||
-|96|[Unique Binary Search Trees](https://oj.leetcode.com/problems/unique-binary-search-trees/)| | |Medium||
+|96|[Unique Binary Search Trees](https://oj.leetcode.com/problems/unique-binary-search-trees/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/algorithm/100/cpp)|Medium||
 |95|[Unique Binary Search Trees II](https://oj.leetcode.com/problems/unique-binary-search-trees-ii/)| | |Medium||
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| | |Hard||
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| | |Medium||
