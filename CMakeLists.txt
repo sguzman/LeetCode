@@ -29,7 +29,7 @@ add_executable(strstrc src/problems/algorithm/28/c/kmp/main.c src/problems/algor
 add_executable(maxsum src/problems/algorithm/53/cpp/kadane/main.cxx src/problems/algorithm/53/cpp/kadane/maxsum.hxx src/include/cpp/test.hxx)
 
 # 96
-add_executable(uniquebst src/problems/algorithm/96/cpp/main.cxx src/problems/algorithm/96/cpp/uniquebst.hxx src/include/cpp/test.hxx)
+add_executable(uniquebst src/problems/algorithm/96/cpp/main.cxx src/problems/algorithm/96/cpp/uniquebst.hxx src/problems/algorithm/96/cpp/gtest.hxx)
 target_link_libraries(uniquebst gtest)
 
 # 100
