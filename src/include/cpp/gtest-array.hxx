@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 
 template <typename T, template <class...> typename A, template <class...> typename B>
-testing::AssertionResult ArraysMatch(const A<T>& expected, const A<T>& actual) {
+testing::AssertionResult EXPECT_ARREQ(const A<T> &expected, const A<T> &actual) {
   auto expectedLength = expected.size();
   auto actualLength = actual.size();
 
