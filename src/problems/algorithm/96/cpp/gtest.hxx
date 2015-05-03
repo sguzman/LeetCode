@@ -3,8 +3,7 @@
 #include <gtest/gtest.h>
 #include "uniquebst.hxx"
 
-namespace
-{
+namespace {
   class UniqueBSTTest : public testing::Test
   {
   protected:
