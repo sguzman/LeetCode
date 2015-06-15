@@ -33,7 +33,7 @@ namespace {
 
     ListNode* expected = new ListNode(7);
     expected->next = new ListNode(0);
-    expected->next = new ListNode(8);
+    expected->next->next = new ListNode(8);
 
     EXPECT_TRUE(linkedMatch<ListNode>(expected, actual));
   }
