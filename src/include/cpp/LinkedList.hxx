@@ -7,11 +7,11 @@ inline namespace {
   using conref = const A&;
 
   template <typename A, typename B, typename C>
-  testing::AssertionResult linkedMatch(conref<A> expected, conref<B> actual, A* (*getNextA) (A*),  B* (*getNextB) (B*)) {
-    A* a{getNextA(&expected)};
-    B* b{getNextB(&actual)};
+  testing::AssertionResult linkedMatch(conref<A> expected, conref<B> actual) {
+    A* a{&expected};
+    B* b{&actual};
 
-    for (; a != nullptr && b != nullptr; a = getNextA(a)) {
+    for (; a != nullptr && b != nullptr; (a = a->next), b = b->next) {
       if (a->val != b->val)
         return testing::AssertionFailure() << "actual (" << b->val << ") != expected (" << a->val << ")";
     }
@@ -24,12 +24,7 @@ inline namespace {
   }
 
   template <typename A, typename C>
-  inline testing::AssertionResult linkedMatch(conref<A> expected, conref<A> actual, C* (*getNextA) (conref<A>),  C* (*getNextB) (conref<A>)) {
-    return ::linkedMatch<A, A, C>(expected, actual, getNextA, getNextB);
-  }
-
-  template <typename A, typename C>
-  inline testing::AssertionResult linkedMatch(conref<A> expected, conref<A> actual, C* (*getNextA) (conref<A>)) {
-    return ::linkedMatch<A, A, C>(expected, actual, getNextA, getNextA);
+  inline testing::AssertionResult linkedMatch(conref<A> expected, conref<A> actual) {
+    return ::linkedMatch<A, A, C>(expected, actual);
   }
 }
