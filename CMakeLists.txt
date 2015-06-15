@@ -14,6 +14,10 @@ ELSE()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 ENDIF()
 
+# 1
+add_executable(twosum src/problems/algorithm/1/cpp/twosum.cxx src/problems/algorithm/1/cpp/twosum.hxx src/problems/algorithm/1/cpp/gtest.hxx)
+target_link_libraries(twosum gtest)
+
 # 28
 add_executable(strstrHorspool src/problems/algorithm/28/cpp/horspool/main.cxx src/problems/algorithm/28/cpp/horspool/horspool.hxx)
 add_executable(strstrKMP src/problems/algorithm/28/cpp/kmp/main.cxx src/problems/algorithm/28/cpp/kmp/strstrKMP.hxx)
