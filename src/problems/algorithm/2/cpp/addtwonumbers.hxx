@@ -1,5 +1,7 @@
 #pragma once
 
+#include "../../../../include/cpp/ListNode.hxx"
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -11,6 +13,8 @@
 class Solution {
 public:
   ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    ListNode* solution = new ListNode(0);
 
+    return solution;
   }
 };
