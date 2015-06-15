@@ -11,11 +11,12 @@ testing::AssertionResult EXPECT_ARREQ(const A<T> &expected, const A<T> &actual) 
     return testing::AssertionFailure() << "Size of expected and actual arrays do not match";
   }
 
-  for (size_t i{}; i < expectedLength; ++i)
+  for (size_t i{}; i < expectedLength; ++i) {
     if (expected[i] != actual[i])
       return testing::AssertionFailure() << "array[" << i
              << "] (" << actual[i] << ") != expected[" << i
              << "] (" << expected[i] << ")";
+  }
 
   return testing::AssertionSuccess();
 }
