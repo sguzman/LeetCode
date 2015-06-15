@@ -1,7 +1,12 @@
 #pragma once
 
+#include <vector>
 #include <gtest/gtest.h>
+
+#include "../../../../include/cpp/gtest-array.hxx"
 #include "twosum.hxx"
+
+using std::vector;
 
 namespace {
   class TwoSumTest : public testing::Test
@@ -15,9 +20,10 @@ namespace {
 
   TEST(TwoSumTest, TwoSum1)
   {
-    auto actual = 0/*Solution{}.numTrees(1)*/;
-    decltype(actual) expected = 1;
+    vector<int> input{2, 7, 11, 15};
+    auto actual = Solution{}.twoSum(input, 9);
+    vector<int> expected{1, 2};
 
-    EXPECT_EQ(expected, actual);
+    EXPECT_TRUE(arrayMatch(expected, actual));
   }
 }
