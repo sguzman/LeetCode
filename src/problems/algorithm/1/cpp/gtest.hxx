@@ -26,4 +26,22 @@ namespace {
 
     EXPECT_TRUE(arrayMatch(expected, actual));
   }
+
+  TEST(TwoSumTest, TwoSum2)
+  {
+    vector<int> input{3, 7, 11, 15, 6, 2, 9};
+    auto actual = Solution{}.twoSum(input, 8);
+    vector<int> expected{5, 6};
+
+    EXPECT_TRUE(arrayMatch(expected, actual));
+  }
+
+  TEST(TwoSumTest, TwoSum3)
+  {
+    vector<int> input{3, 7, 11, 15, 6, 2, 9};
+    auto actual = Solution{}.twoSum(input, 24);
+    vector<int> expected{4, 7};
+
+    EXPECT_TRUE(arrayMatch(expected, actual));
+  }
 }
