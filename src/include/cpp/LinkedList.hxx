@@ -2,14 +2,14 @@
 
 #include <gtest/gtest.h>
 
-inline namespace {
+namespace {
   template <typename A>
   using conref = const A&;
 
-  template <typename A, typename B, typename C>
-  testing::AssertionResult linkedMatch(conref<A> expected, conref<B> actual) {
-    A* a{&expected};
-    B* b{&actual};
+  template <typename A, typename B>
+  testing::AssertionResult linkedMatch(A* expected, B* actual) {
+    A* a{expected};
+    B* b{actual};
 
     for (; a != nullptr && b != nullptr; (a = a->next), b = b->next) {
       if (a->val != b->val)
@@ -23,8 +23,8 @@ inline namespace {
     return testing::AssertionSuccess();
   }
 
-  template <typename A, typename C>
+  template <typename A>
   inline testing::AssertionResult linkedMatch(conref<A> expected, conref<A> actual) {
-    return ::linkedMatch<A, A, C>(expected, actual);
+    return ::linkedMatch<A, A>(expected, actual);
   }
 }
