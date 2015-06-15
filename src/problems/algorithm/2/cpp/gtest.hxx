@@ -37,4 +37,19 @@ namespace {
 
     EXPECT_TRUE(linkedMatch<ListNode>(expected, actual));
   }
+
+  TEST(AddTwoNumbersTest, TwoSum2)
+  {
+    ListNode* input1 = new ListNode(1);
+    input1->next = new ListNode(8);
+
+    ListNode* input2 = new ListNode(0);
+
+    ListNode* actual = Solution{}.addTwoNumbers(input1, input2);
+
+    ListNode* expected = new ListNode(1);
+    expected->next = new ListNode(8);
+
+    EXPECT_TRUE(linkedMatch<ListNode>(expected, actual));
+  }
 }
