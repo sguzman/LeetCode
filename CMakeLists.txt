@@ -1,6 +1,19 @@
 cmake_minimum_required(VERSION 3.1)
 project(LeetCode)
 
+IF(EXISTS "/usr/bin/clang")
+    set(CMAKE_CXX_COMPILER             "/usr/bin/clang++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1z")
+    set(CMAKE_AR      "/usr/bin/llvm-ar")
+    #set(CMAKE_LINKER  "/usr/bin/llvm-ld")
+    set(CMAKE_NM      "/usr/bin/llvm-nm")
+    set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
+    set(CMAKE_RANLIB  "/usr/bin/llvm-ranlib")
+ELSE()
+    set(CMAKE_CXX_COMPILER             "/usr/bin/g++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+ENDIF()
+
 # 28
 add_executable(strstrHorspool src/problems/algorithm/28/cpp/horspool/main.cxx src/problems/algorithm/28/cpp/horspool/horspool.hxx)
 add_executable(strstrKMP src/problems/algorithm/28/cpp/kmp/main.cxx src/problems/algorithm/28/cpp/kmp/strstrKMP.hxx)
