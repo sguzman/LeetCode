@@ -1,6 +1,5 @@
 #pragma once
 
-
 struct TreeNode {
 	int val;
 	TreeNode *left;
