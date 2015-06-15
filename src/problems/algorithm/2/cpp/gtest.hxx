@@ -4,7 +4,7 @@
 #include <gtest/gtest.h>
 
 #include "../../../../include/cpp/gtest-array.hxx"
-#include "twosum.hxx"
+#include "addtwonumbers.hxx"
 
 using std::vector;
 
