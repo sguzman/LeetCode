@@ -19,7 +19,7 @@ add_executable(twosum src/problems/algorithm/1/cpp/twosum.cxx src/problems/algor
 target_link_libraries(twosum gtest)
 
 # 2
-add_executable(addtwonumbers src/problems/algorithm/2/cpp/addtwonumbers.cxx src/problems/algorithm/2/cpp/addtwonumbers.hxx src/problems/algorithm/2/cpp/gtest.hxx)
+add_executable(addtwonumbers src/problems/algorithm/2/cpp/addtwonumbers.cxx src/problems/algorithm/2/cpp/addtwonumbers.hxx src/problems/algorithm/2/cpp/gtest.hxx src/include/cpp/LinkedList.hxx)
 target_link_libraries(addtwonumbers gtest)
 
 # 28
