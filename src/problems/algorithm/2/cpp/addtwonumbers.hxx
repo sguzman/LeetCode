@@ -20,11 +20,21 @@ public:
 
     int sum;
     bool isGreater10{false};
-    for (; linkA != nullptr || linkB != nullptr; ) {
-      sum = linkA->val + linkB->val;
-
+    while (linkA != nullptr || linkB != nullptr) {
       if (isGreater10) {
-        ++sum;
+        sum = 1;
+      } else {
+        sum = 0;
+      }
+
+      if (linkA != nullptr) {
+        sum += linkA->val;
+        linkA = linkA->next;
+      }
+
+      if (linkB != nullptr) {
+        sum += linkB->val;
+        linkB = linkB->next;
       }
 
       isGreater10 = sum > 9;
@@ -35,16 +45,7 @@ public:
 
       curr->val = sum;
 
-
-      if (linkA != nullptr) {
-        linkA = linkA->next;
-      }
-
-      if (linkB != nullptr) {
-        linkB = linkB->next;
-      }
-
-      if (linkA == nullptr && linkB == nullptr) {
+      if (linkA != nullptr || linkB != nullptr) {
         curr->next = new ListNode{1};
         curr = curr->next;
       }
