@@ -20,7 +20,7 @@ public:
 
     int sum;
     bool isGreater10{false};
-    for (; linkA != nullptr && linkB != nullptr; (linkA = linkA->next), linkB = linkB->next) {
+    for (; linkA != nullptr || linkB != nullptr; ) {
       sum = linkA->val + linkB->val;
 
       if (isGreater10) {
@@ -35,7 +35,16 @@ public:
 
       curr->val = sum;
 
-      if (linkA->next != nullptr) {
+
+      if (linkA != nullptr) {
+        linkA = linkA->next;
+      }
+
+      if (linkB != nullptr) {
+        linkB = linkB->next;
+      }
+
+      if (linkA == nullptr && linkB == nullptr) {
         curr->next = new ListNode{1};
         curr = curr->next;
       }
