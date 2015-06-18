@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <string>
 #include <gtest/gtest.h>
 
 #include "longestsubstrworep.hxx"
@@ -17,8 +18,25 @@ namespace {
     virtual void TearDown(void) {}
   };
 
-  TEST(LongestSubStringWithoutRepetitionTest, TwoSum1)
+  TEST(LongestSubStringWithoutRepetitionTest, LongestSub1)
   {
-    EXPECT_TRUE(false);
+    const std::string input{"abcabcbb"};
+
+    const auto actual = Solution{}.lengthOfLongestSubstring(input);
+    decltype(actual) expected = 3;
+
+    EXPECT_EQ(expected, actual);
   }
+
+  TEST(LongestSubStringWithoutRepetitionTest, LongestSub2)
+  {
+    const std::string input{"bbbbb"};
+
+    const auto actual = Solution{}.lengthOfLongestSubstring(input);
+    decltype(actual) expected = 1;
+
+    EXPECT_EQ(expected, actual);
+  }
+
+
 }
