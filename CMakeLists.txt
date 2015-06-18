@@ -22,6 +22,10 @@ target_link_libraries(twosum gtest)
 add_executable(addtwonumbers src/problems/algorithm/2/cpp/addtwonumbers.cxx src/problems/algorithm/2/cpp/addtwonumbers.hxx src/problems/algorithm/2/cpp/gtest.hxx src/include/cpp/LinkedList.hxx)
 target_link_libraries(addtwonumbers gtest)
 
+# 3
+add_executable(longestsubstrworep src/problems/algorithm/3/cpp/longestsubstrworep.hxx src/problems/algorithm/3/cpp/longestsubstrworep.cxx src/problems/algorithm/3/cpp/gtest.hxx)
+target_link_libraries(longestsubstrworep gtest)
+
 # 28
 add_executable(strstrHorspool src/problems/algorithm/28/cpp/horspool/main.cxx src/problems/algorithm/28/cpp/horspool/horspool.hxx)
 add_executable(strstrKMP src/problems/algorithm/28/cpp/kmp/main.cxx src/problems/algorithm/28/cpp/kmp/strstrKMP.hxx)
