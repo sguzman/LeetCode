@@ -1,18 +1,12 @@
-# Add Two Numbers
+# Longest Substring Without Repeating Characters
 
 ## Difficulty
 - Medium
 
 ### Description
-Given an array of integers, find two numbers such that they add up to a specific target number.
-
-The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
-
-You may assume that each input would have exactly one solution.
-
-- *Input:* `(2 -> 4 -> 3) + (5 -> 6 -> 4)`
-- *Output:* `7 -> 0 -> 8`
+Given a string, find the length of the longest substring without repeating characters. For example, the longest substring without repeating letters for `abcabcbb` is "abc", which the length is 3. For `bbbbb` the longest substring is `b`, with the length of 1.
 
 #### Tags
-- Linked List
-- Math
+- Hash Table
+- Two Pointers
+- String
