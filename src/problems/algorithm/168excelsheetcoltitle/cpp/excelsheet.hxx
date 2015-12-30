@@ -11,7 +11,7 @@ public:
     } else {
       auto divT = div(n - 1, 26);
 
-      return convertToTitle(divT.quot) + (char) (divT.rem + 'A');
+      return convertToTitle(divT.quot) + static_cast<char>(divT.rem + 'A');
     }
   }
 };

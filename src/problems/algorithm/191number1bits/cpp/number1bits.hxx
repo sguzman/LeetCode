@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cstdint>
+
 class Solution {
 public:
 	int hammingWeight(uint32_t n) {
@@ -9,6 +11,6 @@ public:
 			n >>= 1;
 		}
 
-		return count;
+		return static_cast<int>(count);
 	}
 };

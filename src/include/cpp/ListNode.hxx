@@ -2,7 +2,7 @@
 
 //Definition for singly-linked list.
 struct ListNode {
-  int val;
   ListNode* next;
-  ListNode(int x) : val(x), next(nullptr) {}
+  long val;
+  ListNode(int x) : next(nullptr), val(x) {}
 };

@@ -23,16 +23,16 @@ public:
 
         const auto length = strlen(haystack), end = overlap.size() - 1;
 
-        for (int m{}, i{}; m + i < length;) {
+        for (unsigned long m{}, i{}; m + i < length;) {
             if (needle[i] == haystack[m + i]) {
                 if (i == end) {
-                    return m;
+                    return static_cast<int>(m);
                 }
                 ++i;
             } else {
                 if (overlap[i] > -1) {
-                    m += i - overlap[i];
-                    i = overlap[i];
+                    m += i - static_cast<unsigned long>(overlap[i]);
+                    i = static_cast<unsigned long>(overlap[i]);
                 } else {
                     i = 0;
                     ++m;
@@ -69,7 +69,7 @@ private:
                     table.push_back(cnd);
                     ++str;
                 } else if (cnd > 0) {
-                    cnd = table[cnd];
+                    cnd = table[static_cast<unsigned long>(cnd)];
                 } else {
                     table.push_back(0);
                     ++str;

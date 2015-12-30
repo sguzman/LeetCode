@@ -1,8 +1,9 @@
 #pragma once
 
 struct TreeNode {
-	int val;
 	TreeNode *left;
 	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	long val;
+  static constexpr const int padding4bytes{};
+	TreeNode(int x) : left(NULL), right(NULL), val(static_cast<long>(x)) {}
 };

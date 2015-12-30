@@ -1,4 +1,6 @@
 #pragma once
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wglobal-constructors"
 
 #include <gtest/gtest.h>
 #include "uniquebst.hxx"
@@ -7,7 +9,6 @@ namespace {
   class UniqueBSTTest : public testing::Test
   {
   protected:
-    UniqueBSTTest(void) {}
     virtual ~UniqueBSTTest(void) {}
     virtual void SetUp(void) {}
     virtual void TearDown(void) {}
@@ -69,3 +70,5 @@ namespace {
     EXPECT_EQ(expected, actual);
   }
 }
+
+#pragma clang diagnostic pop

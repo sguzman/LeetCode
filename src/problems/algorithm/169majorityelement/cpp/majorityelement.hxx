@@ -7,7 +7,7 @@ public:
   int majorityElement(std::vector<int> &sum) {
     int major{sum[0]}, freq{};
 
-    for (int i = 0; i < sum.size(); ++i) {
+    for (unsigned long i = 0; i < sum.size(); ++i) {
       if (sum[i] == major) {
         ++freq;
       } else {

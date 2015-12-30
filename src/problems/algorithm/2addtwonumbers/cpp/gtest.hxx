@@ -1,4 +1,6 @@
 #pragma once
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wglobal-constructors"
 
 #include <vector>
 #include <gtest/gtest.h>
@@ -13,7 +15,6 @@ namespace {
   class AddTwoNumbersTest : public testing::Test
   {
   protected:
-    AddTwoNumbersTest(void) {}
     virtual ~AddTwoNumbersTest(void) {}
     virtual void SetUp(void) {}
     virtual void TearDown(void) {}
@@ -53,3 +54,5 @@ namespace {
     EXPECT_TRUE(linkedMatch<ListNode>(expected, actual));
   }
 }
+
+#pragma clang diagnostic pop

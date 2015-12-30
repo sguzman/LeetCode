@@ -9,6 +9,8 @@
 // Include this header, and operator<< will "just work".
 
 #pragma once
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wweak-vtables"
 
 #include <cstddef>
 #include <iterator>
@@ -438,3 +440,5 @@ namespace std
 		return stream << ::pretty_print::print_container_helper<T, TChar, TCharTraits>(container);
 	}
 }
+
+#pragma clang diagnostic pop

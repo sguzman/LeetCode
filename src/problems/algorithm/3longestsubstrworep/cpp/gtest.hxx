@@ -1,4 +1,6 @@
 #pragma once
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wglobal-constructors"
 
 #include <vector>
 #include <string>
@@ -12,7 +14,6 @@ namespace {
   class LongestSubStringWithoutRepetitionTest : public testing::Test
   {
   protected:
-    LongestSubStringWithoutRepetitionTest(void) {}
     virtual ~LongestSubStringWithoutRepetitionTest(void) {}
     virtual void SetUp(void) {}
     virtual void TearDown(void) {}
@@ -47,6 +48,6 @@ namespace {
 
     EXPECT_EQ(expected, actual);
   }
-
-
 }
+
+#pragma clang diagnostic pop
