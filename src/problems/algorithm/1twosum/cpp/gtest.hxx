@@ -6,6 +6,7 @@
 #include <gtest/gtest.h>
 
 #include "../../../../include/cpp/gtest-array.hxx"
+#include "../../../../include/cpp/pretty_print.hxx"
 #include "twosum.hxx"
 
 using std::vector;
@@ -25,7 +26,7 @@ namespace {
     auto actual = Solution{}.twoSum(input, 9);
     vector<int> expected{1, 2};
 
-    EXPECT_TRUE(arrayMatch(expected, actual));
+    EXPECT_TRUE(arrayMatch(expected, actual)) << "Actual array (" << actual << ") did not match expected array (" << expected << ").";
   }
 
   TEST(TwoSumTest, TwoSum2)
@@ -34,7 +35,7 @@ namespace {
     auto actual = Solution{}.twoSum(input, 8);
     vector<int> expected{5, 6};
 
-    EXPECT_TRUE(arrayMatch(expected, actual));
+    EXPECT_TRUE(arrayMatch(expected, actual)) << "Actual array (" << actual << ") did not match expected array (" << expected << ").";
   }
 
   TEST(TwoSumTest, TwoSum3)
@@ -43,7 +44,25 @@ namespace {
     auto actual = Solution{}.twoSum(input, 24);
     vector<int> expected{4, 7};
 
-    EXPECT_TRUE(arrayMatch(expected, actual));
+    EXPECT_TRUE(arrayMatch(expected, actual)) << "Actual array (" << actual << ") did not match expected array (" << expected << ").";
+  }
+
+  TEST(TwoSumTest, TwoSum4)
+  {
+    vector<int> input{3, 2, 4};
+    auto actual = Solution{}.twoSum(input, 6);
+    vector<int> expected{2, 3};
+
+    EXPECT_TRUE(arrayMatch(expected, actual)) << "Actual array (" << actual << ") did not match expected array (" << expected << ").";
+  }
+
+  TEST(TwoSumTest, TwoSum5)
+  {
+    vector<int> input{0, 4, 3, 0};
+    auto actual = Solution{}.twoSum(input, 0);
+    vector<int> expected{1, 4};
+
+    EXPECT_TRUE(arrayMatch(expected, actual)) << "Actual array (" << actual << ") did not match expected array (" << expected << ").";
   }
 }
 
