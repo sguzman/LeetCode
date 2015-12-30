@@ -23,7 +23,7 @@ namespace {
   {
     vector<int> input{2, 7, 11, 15};
     auto actual = Solution{}.twoSum(input, 9);
-    vector<long> expected{1, 2};
+    vector<int> expected{1, 2};
 
     EXPECT_TRUE(arrayMatch(expected, actual));
   }
@@ -32,7 +32,7 @@ namespace {
   {
     vector<int> input{3, 7, 11, 15, 6, 2, 9};
     auto actual = Solution{}.twoSum(input, 8);
-    vector<long> expected{5, 6};
+    vector<int> expected{5, 6};
 
     EXPECT_TRUE(arrayMatch(expected, actual));
   }
@@ -41,7 +41,7 @@ namespace {
   {
     vector<int> input{3, 7, 11, 15, 6, 2, 9};
     auto actual = Solution{}.twoSum(input, 24);
-    vector<long> expected{4, 7};
+    vector<int> expected{4, 7};
 
     EXPECT_TRUE(arrayMatch(expected, actual));
   }
