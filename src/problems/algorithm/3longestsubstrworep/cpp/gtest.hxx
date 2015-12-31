@@ -8,6 +8,18 @@
 
 #include "longestsubstrworep.hxx"
 
+#define gtestL(GTESTNAME, InputStr, ExpectedInt) TEST(LongestSubStringWithoutRepetitionTest, GTESTNAME)\
+{\
+const std::string input{InputStr};\
+\
+const auto actual = Solution{}.lengthOfLongestSubstring(input);\
+decltype(actual) expected = ExpectedInt;\
+\
+EXPECT_EQ(expected, actual);\
+}
+
+#define gtestQL(InputStr, ExpectedInt) gtestL(LongestSub_##InputStr, #InputStr, ExpectedInt)
+
 using std::vector;
 
 namespace {
@@ -29,25 +41,18 @@ namespace {
     EXPECT_EQ(expected, actual);
   }
 
-  TEST(LongestSubStringWithoutRepetitionTest, LongestSub2)
-  {
-    const std::string input{"bbbbb"};
-
-    const auto actual = Solution{}.lengthOfLongestSubstring(input);
-    decltype(actual) expected = 1;
-
-    EXPECT_EQ(expected, actual);
-  }
-
-  TEST(LongestSubStringWithoutRepetitionTest, LongestSub3)
-  {
-    const std::string input{"abcda"};
-
-    const auto actual = Solution{}.lengthOfLongestSubstring(input);
-    decltype(actual) expected = 4;
-
-    EXPECT_EQ(expected, actual);
-  }
+  gtestQL(bbbbb, 1)
+  gtestQL(abcda, 4)
+  gtestQL(c, 1)
+  gtestQL(au, 2)
+  gtestQL(aab, 2)
+  gtestQL(ccd, 2)
+  gtestQL(bdb, 2)
+  gtestQL(abcaabbc, 3)
+  gtestQL(cdd, 2)
+  gtestQL(cwf, 3)
 }
 
+#undef gtestL
+#undef gtestQL
 #pragma clang diagnostic pop
