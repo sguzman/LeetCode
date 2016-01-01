@@ -3,8 +3,6 @@
 #include <vector>
 
 using std::vector;
-using std::cout;
-using std::endl;
 
 class Solution {
 public:
@@ -24,7 +22,7 @@ public:
       return (k1 + k2) / 2;
     }
 
-    inline double findKthSmallest(const int * const __restrict nums1, const unsigned long nums1S, const unsigned long nums1E,
+    inline static double findKthSmallest(const int * const __restrict nums1, const unsigned long nums1S, const unsigned long nums1E,
                                          const int * const __restrict nums2, const unsigned long nums2S, const unsigned long nums2E,
                                          unsigned long k) noexcept {
 
