@@ -1,7 +1,7 @@
-# LeetCode
+# [LeetCode](https://leetcode.com)
 
 ### Summary
-Some of my solutions to [LeetCode](https://leetcode.com) problems.
+Some of my solutions to LeetCode problems.
 
 #### Explanation
 Most of them will be done in C++ or C (maybe JavaScript). If the solutions are not readable, it's because I'm trying to
@@ -33,7 +33,7 @@ solutions on GitHub.
 
 ### [Algorithm](https://leetcode.com/problemset/algorithms/)
 | # | Title | Premium | Solutions | Difficulty |
-|---| ----- | ------- | --------- | ---------- |
+|:-:|:-----:|:-------:|:---------:|:----------:|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/1twosum/cpp)|Medium|
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/2addtwonumbers/cpp)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/3longestsubstrworep/cpp)|Medium|
@@ -61,7 +61,7 @@ solutions on GitHub.
 |25|[Reverse Nodes in k-Group](https://oj.leetcode.com/problems/reverse-nodes-in-k-group/)| | |Hard|
 |26|[Remove Duplicates from Sorted Array](https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/)| | |Easy|
 |27|[Remove Element](https://oj.leetcode.com/problems/remove-element/)| | |Easy|
-|28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/c/) [JavaScript](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/javascript/) [Python](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/python) [Java](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/java/) |Easy|
+|28|[Implement strStr()](https://oj.leetcode.com/problems/implement-strstr/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/c/), [JavaScript](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/javascript/), [Python](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/python), [Java](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/28/java/) |Easy|
 |29|[Divide Two Integers](https://oj.leetcode.com/problems/divide-two-integers/)| | |Medium|
 |30|[Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)| | |Hard|
 |31|[Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| | |Medium|
@@ -133,11 +133,11 @@ solutions on GitHub.
 |97|[Interleaving String](https://oj.leetcode.com/problems/interleaving-string/)| | |Hard|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| | |Medium|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| | |Hard|
-|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/100) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/100/c) |Easy|
+|100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/100), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/100/c) |Easy|
 |101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| | |Easy|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| | |Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| | |Medium|
-|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/104/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/104/c) |Easy|
+|104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/104/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/104/c) |Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| | |Medium|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| | |Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| | |Easy|
@@ -169,7 +169,7 @@ solutions on GitHub.
 |133|[Clone Graph](https://oj.leetcode.com/problems/clone-graph/)| | |Medium|
 |134|[Gas Station](https://oj.leetcode.com/problems/gas-station/)| | |Medium|
 |135|[Candy](https://oj.leetcode.com/problems/candy/)| | |Hard|
-|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/136/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/136/c) |Medium|
+|136|[Single Number](https://oj.leetcode.com/problems/single-number/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/136/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/136/c) |Medium|
 |137|[Single Number II](https://oj.leetcode.com/problems/single-number-ii/)| | |Medium|
 |138|[Copy List with Random Pointer](https://oj.leetcode.com/problems/copy-list-with-random-pointer/)| | |Hard|
 |139|[Word Break](https://oj.leetcode.com/problems/word-break/)| | |Medium|
@@ -202,10 +202,10 @@ solutions on GitHub.
 |166|[Fraction to Recurring Decimal](https://oj.leetcode.com/problems/fraction-to-recurring-decimal/) | | |Medium|
 |167|[Two Sum II - Input array is sorted](https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|&#9733;| |Medium|
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/168/cpp) |Easy|
-|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/169/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/169/c) |Easy|
+|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/169/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/169/c) |Easy|
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/)|&#9733;| |Easy|
-|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/171/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/171/c) |Easy|
-|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/172/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/172/c) |Easy|
+|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/171/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/171/c) |Easy|
+|172|[Factorial Trailing Zeroes](https://oj.leetcode.com/problems/factorial-trailing-zeroes/) | |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/172/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/172/c) |Easy|
 |173|[Binary Search Tree Iterator](https://oj.leetcode.com/problems/binary-search-tree-iterator/) | | |Medium|
 |174|[Dungeon Game](https://oj.leetcode.com/problems/dungeon-game/) | | |Hard|
 |179|[Largest Number](https://oj.leetcode.com/problems/largest-number/) | | |Medium|
@@ -213,8 +213,8 @@ solutions on GitHub.
 |187|[Repeated DNA Sequences](https://oj.leetcode.com/problems/repeated-dna-sequences/)| | |Medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| | |Hard|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/189/cpp) |Easy|
-|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/190/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/190/c) |Easy|
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/191/cpp) [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/191/c) |Easy|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/190/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/190/c) |Easy|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/191/cpp), [C](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/191/c) |Easy|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| | |Easy|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| | |Medium|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| | |Medium|
