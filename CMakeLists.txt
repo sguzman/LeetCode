@@ -38,6 +38,11 @@ target_link_libraries(2addtwonumbers gtest)
 add_executable(3longestsubstrworep src/problems/algorithm/3longestsubstrworep/cpp/longestsubstrworep.hxx src/problems/algorithm/3longestsubstrworep/cpp/longestsubstrworep.cxx src/problems/algorithm/3longestsubstrworep/cpp/gtest.hxx)
 target_link_libraries(3longestsubstrworep gtest)
 
+#4
+FILE(GLOB MEDIAN4 src/problems/algorithm/4mediantwosortarrays/cpp/*xx)
+add_executable(4mediantwosortarrays ${MEDIAN4})
+target_link_libraries(4mediantwosortarrays gtest)
+
 # 28
 add_executable(28strstrHorspool src/problems/algorithm/28strstr/cpp/horspool/main.cxx src/problems/algorithm/28strstr/cpp/horspool/horspool.hxx)
 add_executable(28strstrKMP src/problems/algorithm/28strstr/cpp/kmp/main.cxx src/problems/algorithm/28strstr/cpp/kmp/strstrKMP.hxx)
