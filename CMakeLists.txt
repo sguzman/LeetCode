@@ -4,7 +4,7 @@ project(LeetCode)
 IF(EXISTS "/usr/bin/clang")
     set(CMAKE_CXX_COMPILER             "/usr/bin/clang++")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1z -stdlib=libc++")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g -O -Weverything -pedantic -pedantic-errors -Wno-c++98-compat -Wno-c++98-compat-pedantic")
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS} -Wall -g -O -Weverything -pedantic -pedantic-errors -Wno-c++98-compat -Wno-c++98-compat-pedantic")
     #set(CMAKE_AR      "/usr/bin/llvm-ar")
     #set(CMAKE_LINKER  "/usr/bin/llvm-ld")
     #set(CMAKE_NM      "/usr/bin/llvm-nm")
@@ -38,10 +38,15 @@ target_link_libraries(2addtwonumbers gtest)
 add_executable(3longestsubstrworep src/problems/algorithm/3longestsubstrworep/cpp/longestsubstrworep.hxx src/problems/algorithm/3longestsubstrworep/cpp/longestsubstrworep.cxx src/problems/algorithm/3longestsubstrworep/cpp/gtest.hxx)
 target_link_libraries(3longestsubstrworep gtest)
 
-#4
-FILE(GLOB MEDIAN4 src/problems/algorithm/4mediantwosortarrays/cpp/*xx)
+# 4
+file(GLOB MEDIAN4 src/problems/algorithm/4mediantwosortarrays/cpp/*xx)
 add_executable(4mediantwosortarrays ${MEDIAN4})
 target_link_libraries(4mediantwosortarrays gtest)
+
+# 5
+file(GLOB LONGPALINSUBH src/problems/algorithm/5longestpalindromesub/cpp/*xx)
+add_executable(5longestpalindromesub ${LONGPALINSUBH})
+target_link_libraries(5longestpalindromesub gtest)
 
 # 28
 add_executable(28strstrHorspool src/problems/algorithm/28strstr/cpp/horspool/main.cxx src/problems/algorithm/28strstr/cpp/horspool/horspool.hxx)

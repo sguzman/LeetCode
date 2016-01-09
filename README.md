@@ -38,7 +38,7 @@ solutions on GitHub.
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/2addtwonumbers/cpp)|Medium|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/3longestsubstrworep/cpp)|Medium|
 |4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/4mediantwosortarrays/cpp) |Hard|
-|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| | |Medium|
+|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/problems/algorithm/5longestpalindromesub/cpp) |Medium|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| | |Easy|
 |7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| | |Easy|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| | |Easy|
