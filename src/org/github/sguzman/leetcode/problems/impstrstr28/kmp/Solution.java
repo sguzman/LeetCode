@@ -1,12 +1,12 @@
-package com.company;
+package org.github.sguzman.leetcode.problems.impstrstr28.kmp;
 
 import java.util.ArrayList;
 
 public class Solution {
     /**
-     * @param haystack
-     * @param needle
-     * @return
+     * @param haystack String
+     * @param needle String
+     * @return int
      */
     public static int strStr(String haystack, String needle) {
         if (haystack.length() == 0 || needle.length() == 0) {
@@ -25,9 +25,9 @@ public class Solution {
     }
 
     /**
-     * @param haystack
-     * @param needle
-     * @return
+     * @param haystack String
+     * @param needle String
+     * @return int
      */
     private static int match(String haystack, String needle) {
         ArrayList<Integer> overlap = mismatch(needle);
@@ -51,8 +51,8 @@ public class Solution {
     }
 
     /**
-     * @param needle
-     * @return
+     * @param needle String
+     * @return ArrayList<Integer>
      */
     private static ArrayList<Integer> mismatch(String needle) {
         ArrayList<Integer> table = new ArrayList<>(needle.length());
