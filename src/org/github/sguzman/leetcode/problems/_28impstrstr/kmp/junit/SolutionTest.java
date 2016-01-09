@@ -1,8 +1,8 @@
-package org.github.sguzman.leetcode.problems.impstrstr28.kmp.junit;
+package org.github.sguzman.leetcode.problems._28impstrstr.kmp.junit;
 
+import org.github.sguzman.leetcode.problems._28impstrstr.kmp.solution.Solution;
 import org.junit.Test;
 
-import static org.github.sguzman.leetcode.problems.impstrstr28.kmp.solution.Solution.strStr;
 import static org.junit.Assert.*;
 
 public class SolutionTest {
@@ -13,7 +13,7 @@ public class SolutionTest {
         final String needle = "";
 
         final int expected = 0;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -24,7 +24,7 @@ public class SolutionTest {
         final String needle = "";
 
         final int expected = 0;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -35,7 +35,7 @@ public class SolutionTest {
         final String needle = "nano";
 
         final int expected = 4;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -46,7 +46,7 @@ public class SolutionTest {
         final String needle = "eja";
 
         final int expected = 3;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -57,7 +57,7 @@ public class SolutionTest {
         final String needle = " you";
 
         final int expected = 18;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -68,7 +68,7 @@ public class SolutionTest {
         final String needle = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
 
         final int expected = 81;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -79,7 +79,7 @@ public class SolutionTest {
         final String needle = "aabbaa";
 
         final int expected = 6;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -90,7 +90,7 @@ public class SolutionTest {
         final String needle = "aabbaa";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -101,7 +101,7 @@ public class SolutionTest {
         final String needle = "a";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -112,7 +112,7 @@ public class SolutionTest {
         final String needle = "aabbaa";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -123,7 +123,7 @@ public class SolutionTest {
         final String needle = "aabbaa";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -134,7 +134,7 @@ public class SolutionTest {
         final String needle = "aabbaa";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }
@@ -145,7 +145,7 @@ public class SolutionTest {
         final String needle = "yep";
 
         final int expected = -1;
-        final int actual = strStr(haystack, needle);
+        final int actual = Solution.strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
     }

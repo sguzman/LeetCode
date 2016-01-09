@@ -1,4 +1,4 @@
-package org.github.sguzman.leetcode.problems.twosum1.solution;
+package org.github.sguzman.leetcode.problems._1twosum.solution;
 
 import java.util.HashMap;
 import java.util.Map;

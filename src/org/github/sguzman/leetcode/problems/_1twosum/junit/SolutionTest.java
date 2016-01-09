@@ -1,6 +1,6 @@
-package org.github.sguzman.leetcode.problems.twosum1.junit;
+package org.github.sguzman.leetcode.problems._1twosum.junit;
 
-import org.github.sguzman.leetcode.problems.twosum1.solution.Solution;
+import org.github.sguzman.leetcode.problems._1twosum.solution.Solution;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
