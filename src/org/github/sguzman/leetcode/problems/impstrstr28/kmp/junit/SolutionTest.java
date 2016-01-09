@@ -1,8 +1,8 @@
-package org.github.sguzman.leetcode.problems.impstrstr28.kmp;
+package org.github.sguzman.leetcode.problems.impstrstr28.kmp.junit;
 
 import org.junit.Test;
 
-import static org.github.sguzman.leetcode.problems.impstrstr28.kmp.Solution.strStr;
+import static org.github.sguzman.leetcode.problems.impstrstr28.kmp.solution.Solution.strStr;
 import static org.junit.Assert.*;
 
 public class SolutionTest {
@@ -148,5 +148,10 @@ public class SolutionTest {
         final int actual = strStr(haystack, needle);
 
         assertEquals("Expected: " + expected + ", got: " + actual, expected, actual);
+    }
+
+    @Test
+    public void testTwoSum() throws Exception {
+
     }
 }

@@ -1,4 +1,4 @@
-package org.github.sguzman.leetcode.problems.impstrstr28.kmp;
+package org.github.sguzman.leetcode.problems.impstrstr28.kmp.solution;
 
 import java.util.ArrayList;
 
