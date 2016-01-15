@@ -2,18 +2,16 @@ package org.github.sguzman.leetcode.problems._7revint.solution;
 
 public class Solution {
     public int reverse(int x) {
-        final StringBuilder str = new StringBuilder();
+        long num = 0;
+        while (x != 0) {
+            num = num * 10 + (x % 10);
+            x /= 10;
+        }
 
-        try {
-            if (x < 0) {
-                str.append(-x);
-                return Integer.parseInt('-' + str.reverse().toString());
-            }
-
-            str.append(x);
-            return Integer.parseInt(str.reverse().toString());
-        } catch (NumberFormatException e) {
+        if (num < Integer.MIN_VALUE || num > Integer.MAX_VALUE) {
             return 0;
         }
+
+        return (int) num;
     }
 }
