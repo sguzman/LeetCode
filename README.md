@@ -34,13 +34,13 @@ solutions on GitHub.
 ### [Algorithm](https://leetcode.com/problemset/algorithms/)
 | # | Title | Premium | Solutions | Difficulty |
 |:-:|:-----:|:-------:|:---------:|:----------:|
-|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/1twosum/cpp)|Medium|
-|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/2addtwonumbers/cpp)|Medium|
-|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/3longestsubstrworep/cpp)|Medium|
-|4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/4mediantwosortarrays/cpp) |Hard|
-|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| | |Medium|
-|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| | |Easy|
-|7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| | |Easy|
+|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/1twosum/cpp), [Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_1twosum)|Medium|
+|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/2addtwonumbers/cpp), [Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_2addtwonumbers)|Medium|
+|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/3longestsubstrworep/cpp), [Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_3longsubnorep)|Medium|
+|4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| |[C++](https://github.com/sguzman/LeetCode/tree/master/src/cpp/problems/algorithm/4mediantwosortarrays/cpp), [Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_4mediansortarr)|Hard|
+|5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| |[Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_5longpalinsub)|Medium|
+|6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| |[Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_6zigzag) |Easy|
+|7|[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)| |[Java](https://github.com/sguzman/LeetCode/tree/master/src/org/github/sguzman/leetcode/problems/_7revint) |Easy|
 |8|[String to Integer (atoi)](https://oj.leetcode.com/problems/string-to-integer-atoi/)| | |Easy|
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)| | |Easy|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)| | |Hard|
