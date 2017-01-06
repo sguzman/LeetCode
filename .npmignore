@@ -1,3 +1,5 @@
-src/cpp
-src/org
-src/
+src/cpp/
+src/org/
+node_modules/
+dist/
+yarn.lock
