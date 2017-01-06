@@ -17,7 +17,10 @@
     "flow": "^0.2.3",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-flowtype": "^1.0.0",
     "gulp-mocha": "^3.0.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-util": "^3.0.8",
     "mocha": "^3.2.0"
   },
   "private": false,
