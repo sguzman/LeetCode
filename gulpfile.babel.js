@@ -1,3 +1,10 @@
-import gulp from 'gulp';
+'use strict';
 
-gulp.task('default', () => console.log('Default task called'));
+import gulp from 'gulp';
+import babel from 'gulp-babel'
+
+gulp.task('default', () => {
+    return gulp.src('./src/js/leet.js')
+        .pipe(babel())
+        .pipe(gulp.dest('dist'));
+});
