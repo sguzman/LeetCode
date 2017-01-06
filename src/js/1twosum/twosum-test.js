@@ -1,7 +1,7 @@
 'use strict';
 
 import expect from 'chai'
-import twoSum from 'twosum'
+import twoSum from './twosum'
 
 describe('*1. Two Sum*', function () {
     function test(input, target, expVal) {
