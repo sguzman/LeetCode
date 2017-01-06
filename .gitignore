@@ -247,7 +247,5 @@ $RECYCLE.BIN/
 
 # Ignore *.orig generated files from git
 *.orig
-gulpfile.js
 node_modules/
-package.json
 yarn.lock
