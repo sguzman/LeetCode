@@ -5,10 +5,8 @@
 /**
  * @param {number[]} nums
  * @param {number} target
- * @return {number[]}
+ * @return {[number, number]}
  */
-module.exports = {
-    twoSum(nums: number[], target: number) {
-        return false;
-    }
-};
+export default function twoSum(nums: number[], target: number): [number, number] {
+    return false;
+}
