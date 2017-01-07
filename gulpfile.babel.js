@@ -10,8 +10,6 @@ import del from 'del'
 
 gulp.task('default', () => {
     return gulp.src('./src/js/**/*.js')
-        .pipe(flow())
-        .on('error', util.log)
         .pipe(sourcemaps.init())
         .pipe(babel())
         .on('error', util.log)
