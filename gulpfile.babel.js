@@ -12,10 +12,8 @@ gulp.task('default', () => {
     return gulp.src('./src/js/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(babel())
-        .on('error', util.log)
         .pipe(gulp.dest('dist/'))
         .pipe(mocha({reporter: 'spec'}))
-        .on('error', util.log);
 });
 
 gulp.task('flow', function() {
@@ -31,7 +29,6 @@ gulp.task('babel', function () {
 gulp.task('test', ['babel'], () => {
     return gulp.src('./src/js/**/*.js')
         .pipe(mocha({reporter: 'spec'}))
-        .on('error', util.log);
 });
 
 gulp.task('clean', function(){
