@@ -2,7 +2,6 @@
 
 import gulp from 'gulp';
 import babel from 'gulp-babel'
-import util from 'gulp-util'
 import mocha from 'gulp-mocha'
 import flow from 'gulp-flowtype'
 import sourcemaps from 'gulp-sourcemaps'
