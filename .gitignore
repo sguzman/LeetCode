@@ -249,3 +249,4 @@ $RECYCLE.BIN/
 *.orig
 node_modules/
 yarn.lock
+.vscode/
