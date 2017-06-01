@@ -6,7 +6,7 @@ let twoSum = require('./twosum').twoSum;
 describe('*1. Two Sum*', function () {
     function test(input, target, expVal) {
         it(`${input}, target = ${target}`, function () {
-            expect(twoSum(input)).to.be.eq(expVal)
+            expect(twoSum(input, target)).to.be.eql(expVal);
         })
     }
 
