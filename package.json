@@ -7,25 +7,14 @@
   "author": "Salvador Guzman <guzmansalv@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.21.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
-    "babel-plugin-transform-flow-strip-types": "^6.21.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-register": "^6.18.0",
     "chai": "^3.5.0",
-    "del": "^2.2.2",
-    "flow": "^0.2.3",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-flowtype": "^1.0.0",
-    "gulp-mocha": "^3.0.1",
-    "gulp-sourcemaps": "^1.9.1",
-    "gulp-util": "^3.0.8",
     "mocha": "^3.2.0"
   },
   "private": false,
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec ./src/js/leet.js"
+  },
+  "resolutions": {
+    "type-detect": "1.0.0"
   }
 }
