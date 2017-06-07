@@ -1,7 +1,7 @@
 'use strict';
 
-let expect = require('chai').expect;
-let twoSum = require('./twosum').twoSum;
+const expect = require('chai').expect;
+const twoSum = require('./twosum').twoSum;
 
 describe('*1. Two Sum*', function () {
     function test(input, target, expVal) {
