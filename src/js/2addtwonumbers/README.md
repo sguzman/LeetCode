@@ -16,5 +16,5 @@ You may assume that each input would have exactly one solution.
 - **Output:** `7 -> 0 -> 8`
 
 #### Tags
-- Linked List
-- Math
+- **Linked List**
+- **Math**
