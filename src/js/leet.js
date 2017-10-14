@@ -1,3 +1,3 @@
 'use strict';
 
-require('./1twosum/twosum-test');
+import './1twosum/twosum-test';
