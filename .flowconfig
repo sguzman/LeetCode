@@ -1,4 +1,0 @@
-[ignore]
-.*/src/cpp
-.*/src/org
-.*/node_modules
